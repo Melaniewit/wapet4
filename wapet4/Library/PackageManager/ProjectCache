@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637795200450000000
-    m_Hash: 4270540091
+      ticks: 638589260350000000
+    m_Hash: 1207876778
   m_LockFileStatus:
     m_FilePath: /Users/melaniewhite/unity project/wapet4/wapet4/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638589240200000000
-    m_Hash: 4089919535
+      ticks: 638589260350000000
+    m_Hash: 1039739677
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -238,7 +238,7 @@ m_ResolvedPackages:
   - name: com.unity.xr.arfoundation
     version: 4.2.3
   - name: com.unity.xr.arsubsystems
-    version: 4.2.3
+    version: 4.2.10
   - name: com.unity.subsystemregistration
     version: 1.1.0
   - name: com.unity.modules.subsystems
@@ -262,7 +262,7 @@ m_ResolvedPackages:
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.xr.arcore
-    version: 4.2.3
+    version: 4.2.10
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.modules.unitywebrequest
@@ -967,6 +967,252 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.7.8
     nextVersion: 
+- packageId: com.unity.xr.arcore@4.2.10
+  testable: 0
+  isDirectDependency: 1
+  version: 4.2.10
+  source: 1
+  resolvedPath: /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.xr.arcore@4.2.10
+  assetPath: Packages/com.unity.xr.arcore
+  name: com.unity.xr.arcore
+  displayName: ARCore XR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: 'Provides native Google ARCore integration for use with Unity''s multi-platform
+    XR API.
+
+    Supports the following features:
+
+    -Efficient Background Rendering
+
+    -Horizontal
+    Planes
+
+    -Depth Data
+
+    -Anchors
+
+    -Hit Testing
+
+    -Occlusion'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.24
+    - 2.0.2
+    - 2.1.0-preview.4
+    - 2.1.0-preview.5
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.4
+    - 2.1.8
+    - 2.1.11
+    - 2.1.12
+    - 2.1.14
+    - 2.1.16
+    - 2.1.18
+    - 2.1.19
+    - 2.2.0-preview.1
+    - 2.2.0-preview.2
+    - 2.2.0-preview.6
+    - 3.0.0-preview.1
+    - 3.0.0-preview.2
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.1
+    - 3.0.3
+    - 3.0.4
+    - 3.1.0-preview.1
+    - 3.1.0-preview.2
+    - 3.1.0-preview.4
+    - 3.1.0-preview.6
+    - 3.1.0-preview.7
+    - 3.1.0-preview.8
+    - 3.1.3
+    - 3.1.4
+    - 3.1.5
+    - 3.1.7
+    - 3.1.8
+    - 3.1.10
+    - 4.0.0-preview.1
+    - 4.0.0-preview.3
+    - 4.0.3
+    - 4.0.4
+    - 4.0.8
+    - 4.0.9
+    - 4.0.10
+    - 4.0.12
+    - 4.1.0-preview.2
+    - 4.1.0-preview.3
+    - 4.1.0-preview.5
+    - 4.1.0-preview.6
+    - 4.1.0-preview.7
+    - 4.1.0-preview.9
+    - 4.1.0-preview.10
+    - 4.1.0-preview.11
+    - 4.1.0-preview.12
+    - 4.1.0-preview.13
+    - 4.1.1
+    - 4.1.3
+    - 4.1.5
+    - 4.1.7
+    - 4.1.9
+    - 4.1.10
+    - 4.1.12
+    - 4.1.13
+    - 4.2.0-pre.2
+    - 4.2.0-pre.3
+    - 4.2.0-pre.4
+    - 4.2.0-pre.5
+    - 4.2.0-pre.7
+    - 4.2.0-pre.8
+    - 4.2.0-pre.9
+    - 4.2.0-pre.10
+    - 4.2.0-pre.12
+    - 4.2.0
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.6
+    - 4.2.7
+    - 4.2.8
+    - 4.2.9
+    - 4.2.10
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.0.7
+    - 5.1.0-pre.1
+    - 5.1.0-pre.2
+    - 5.1.0-pre.3
+    - 5.1.0-pre.4
+    - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    - 5.1.0-pre.9
+    - 5.1.0-pre.10
+    - 5.1.0
+    - 5.1.1
+    - 5.1.2
+    - 5.1.3
+    - 5.1.4
+    - 5.1.5
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0-pre.5
+    - 6.0.0-pre.6
+    - 6.0.0-pre.7
+    - 6.0.0-pre.8
+    - 6.0.1
+    - 6.0.2
+    compatible:
+    - 4.2.3
+    - 4.2.6
+    - 4.2.7
+    - 4.2.8
+    - 4.2.9
+    - 4.2.10
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.0.7
+    - 5.1.0-pre.1
+    - 5.1.0-pre.2
+    - 5.1.0-pre.3
+    - 5.1.0-pre.4
+    - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    - 5.1.0-pre.9
+    - 5.1.0-pre.10
+    - 5.1.0
+    - 5.1.1
+    - 5.1.2
+    - 5.1.3
+    - 5.1.4
+    - 5.1.5
+    verified: 4.2.10
+  dependencies:
+  - name: com.unity.xr.arsubsystems
+    version: 4.2.10
+  - name: com.unity.xr.management
+    version: 4.0.1
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.xr.arsubsystems
+    version: 4.2.10
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.2.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.9
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  keywords:
+  - arcore
+  - ar
+  - augmented
+  - xr
+  - reality
+  - core
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638416033650000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arcore@4.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
+    revision: e9e2efe902fc394d3819244ecff203834e95dcc9
+    path: 
+  unityLifecycle:
+    version: 4.2.3
+    nextVersion: 
 - packageId: com.unity.xr.management@4.2.0
   testable: 0
   isDirectDependency: 1
@@ -1440,6 +1686,266 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.1.0
+    nextVersion: 
+- packageId: com.unity.xr.arsubsystems@4.2.10
+  testable: 0
+  isDirectDependency: 0
+  version: 4.2.10
+  source: 1
+  resolvedPath: /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.xr.arsubsystems@4.2.10
+  assetPath: Packages/com.unity.xr.arsubsystems
+  name: com.unity.xr.arsubsystems
+  displayName: AR Subsystems
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Contains definitions for AR Subsystems. This package is a dependency
+    of provider packages, as well as AR Foundation.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 2.0.2
+    - 2.1.0-preview.1
+    - 2.1.0-preview.2
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.14
+    - 2.1.16
+    - 2.1.18
+    - 2.1.19
+    - 2.2.0-preview.2
+    - 2.2.0-preview.3
+    - 2.2.0-preview.6
+    - 3.0.0-preview.1
+    - 3.0.0-preview.2
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.0
+    - 3.0.2
+    - 3.1.0-preview.1
+    - 3.1.0-preview.2
+    - 3.1.0-preview.4
+    - 3.1.0-preview.6
+    - 3.1.0-preview.7
+    - 3.1.0-preview.8
+    - 3.1.3
+    - 3.1.5
+    - 3.1.6
+    - 3.1.10
+    - 4.0.0-preview.1
+    - 4.0.0-preview.3
+    - 4.0.1
+    - 4.0.8
+    - 4.0.9
+    - 4.0.10
+    - 4.0.12
+    - 4.1.0-preview.1
+    - 4.1.0-preview.2
+    - 4.1.0-preview.3
+    - 4.1.0-preview.5
+    - 4.1.0-preview.6
+    - 4.1.0-preview.7
+    - 4.1.0-preview.9
+    - 4.1.0-preview.10
+    - 4.1.0-preview.11
+    - 4.1.0-preview.12
+    - 4.1.0-preview.13
+    - 4.1.1
+    - 4.1.3
+    - 4.1.5
+    - 4.1.7
+    - 4.1.9
+    - 4.1.10
+    - 4.1.12
+    - 4.1.13
+    - 4.2.0-pre.2
+    - 4.2.0-pre.3
+    - 4.2.0-pre.4
+    - 4.2.0-pre.5
+    - 4.2.0-pre.7
+    - 4.2.0-pre.8
+    - 4.2.0-pre.9
+    - 4.2.0-pre.10
+    - 4.2.0-pre.12
+    - 4.2.0
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.6
+    - 4.2.7
+    - 4.2.8
+    - 4.2.9
+    - 4.2.10
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    compatible:
+    - 4.2.3
+    - 4.2.6
+    - 4.2.7
+    - 4.2.8
+    - 4.2.9
+    - 4.2.10
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    verified: 4.2.10
+  dependencies:
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.xr.management
+    version: 4.0.1
+  resolvedDependencies:
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.2.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.9
+  keywords:
+  - subsystem
+  - XR
+  - AR
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638416033630000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
+    revision: e9e2efe902fc394d3819244ecff203834e95dcc9
+    path: 
+  unityLifecycle:
+    version: 4.2.3
+    nextVersion: 
+- packageId: com.unity.modules.androidjni@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.modules.androidjni@1.0.0
+  assetPath: Packages/com.unity.modules.androidjni
+  name: com.unity.modules.androidjni
+  displayName: Android JNI
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'AndroidJNI module allows you to call Java code. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AndroidJNIModule.html'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+- packageId: com.unity.modules.unitywebrequest@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0
+  assetPath: Packages/com.unity.modules.unitywebrequest
+  name: com.unity.modules.unitywebrequest
+  displayName: Unity Web Request
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'The UnityWebRequest module lets you communicate with http services.
+    Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestModule.html'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
@@ -2628,7 +3134,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.xr.arsubsystems
-    version: 4.2.3
+    version: 4.2.10
   - name: com.unity.subsystemregistration
     version: 1.1.0
   - name: com.unity.modules.subsystems
@@ -2889,7 +3395,7 @@ m_ResolvedPackages:
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.xr.arsubsystems
-    version: 4.2.3
+    version: 4.2.10
   - name: com.unity.subsystemregistration
     version: 1.1.0
   - name: com.unity.modules.subsystems
@@ -2922,252 +3428,6 @@ m_ResolvedPackages:
   hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637871117290000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-    revision: 497981bbdfaf531fe240edcfa8f6edfd9aa1567e
-    path: 
-  unityLifecycle:
-    version: 4.2.3
-    nextVersion: 
-- packageId: com.unity.xr.arcore@4.2.3
-  testable: 0
-  isDirectDependency: 0
-  version: 4.2.3
-  source: 1
-  resolvedPath: /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.xr.arcore@4.2.3
-  assetPath: Packages/com.unity.xr.arcore
-  name: com.unity.xr.arcore
-  displayName: ARCore XR Plugin
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: 'Provides native Google ARCore integration for use with Unity''s multi-platform
-    XR API.
-
-    Supports the following features:
-
-    -Efficient Background Rendering
-
-    -Horizontal
-    Planes
-
-    -Depth Data
-
-    -Anchors
-
-    -Hit Testing
-
-    -Occlusion'
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.24
-    - 2.0.2
-    - 2.1.0-preview.4
-    - 2.1.0-preview.5
-    - 2.1.0
-    - 2.1.1
-    - 2.1.2
-    - 2.1.4
-    - 2.1.8
-    - 2.1.11
-    - 2.1.12
-    - 2.1.14
-    - 2.1.16
-    - 2.1.18
-    - 2.1.19
-    - 2.2.0-preview.1
-    - 2.2.0-preview.2
-    - 2.2.0-preview.6
-    - 3.0.0-preview.1
-    - 3.0.0-preview.2
-    - 3.0.0-preview.3
-    - 3.0.0-preview.4
-    - 3.0.1
-    - 3.0.3
-    - 3.0.4
-    - 3.1.0-preview.1
-    - 3.1.0-preview.2
-    - 3.1.0-preview.4
-    - 3.1.0-preview.6
-    - 3.1.0-preview.7
-    - 3.1.0-preview.8
-    - 3.1.3
-    - 3.1.4
-    - 3.1.5
-    - 3.1.7
-    - 3.1.8
-    - 3.1.10
-    - 4.0.0-preview.1
-    - 4.0.0-preview.3
-    - 4.0.3
-    - 4.0.4
-    - 4.0.8
-    - 4.0.9
-    - 4.0.10
-    - 4.0.12
-    - 4.1.0-preview.2
-    - 4.1.0-preview.3
-    - 4.1.0-preview.5
-    - 4.1.0-preview.6
-    - 4.1.0-preview.7
-    - 4.1.0-preview.9
-    - 4.1.0-preview.10
-    - 4.1.0-preview.11
-    - 4.1.0-preview.12
-    - 4.1.0-preview.13
-    - 4.1.1
-    - 4.1.3
-    - 4.1.5
-    - 4.1.7
-    - 4.1.9
-    - 4.1.10
-    - 4.1.12
-    - 4.1.13
-    - 4.2.0-pre.2
-    - 4.2.0-pre.3
-    - 4.2.0-pre.4
-    - 4.2.0-pre.5
-    - 4.2.0-pre.7
-    - 4.2.0-pre.8
-    - 4.2.0-pre.9
-    - 4.2.0-pre.10
-    - 4.2.0-pre.12
-    - 4.2.0
-    - 4.2.1
-    - 4.2.2
-    - 4.2.3
-    - 4.2.6
-    - 4.2.7
-    - 4.2.8
-    - 4.2.9
-    - 4.2.10
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    - 5.0.0-pre.9
-    - 5.0.0-pre.12
-    - 5.0.0-pre.13
-    - 5.0.2
-    - 5.0.3
-    - 5.0.4
-    - 5.0.5
-    - 5.0.6
-    - 5.0.7
-    - 5.1.0-pre.1
-    - 5.1.0-pre.2
-    - 5.1.0-pre.3
-    - 5.1.0-pre.4
-    - 5.1.0-pre.6
-    - 5.1.0-pre.8
-    - 5.1.0-pre.9
-    - 5.1.0-pre.10
-    - 5.1.0
-    - 5.1.1
-    - 5.1.2
-    - 5.1.3
-    - 5.1.4
-    - 5.1.5
-    - 6.0.0-pre.3
-    - 6.0.0-pre.4
-    - 6.0.0-pre.5
-    - 6.0.0-pre.6
-    - 6.0.0-pre.7
-    - 6.0.0-pre.8
-    - 6.0.1
-    - 6.0.2
-    compatible:
-    - 4.2.3
-    - 4.2.6
-    - 4.2.7
-    - 4.2.8
-    - 4.2.9
-    - 4.2.10
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    - 5.0.0-pre.9
-    - 5.0.0-pre.12
-    - 5.0.0-pre.13
-    - 5.0.2
-    - 5.0.3
-    - 5.0.4
-    - 5.0.5
-    - 5.0.6
-    - 5.0.7
-    - 5.1.0-pre.1
-    - 5.1.0-pre.2
-    - 5.1.0-pre.3
-    - 5.1.0-pre.4
-    - 5.1.0-pre.6
-    - 5.1.0-pre.8
-    - 5.1.0-pre.9
-    - 5.1.0-pre.10
-    - 5.1.0
-    - 5.1.1
-    - 5.1.2
-    - 5.1.3
-    - 5.1.4
-    - 5.1.5
-    verified: 4.2.10
-  dependencies:
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.3
-  - name: com.unity.xr.management
-    version: 4.0.1
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.3
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.xr.management
-    version: 4.2.0
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.9
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  keywords:
-  - arcore
-  - ar
-  - augmented
-  - xr
-  - reality
-  - core
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 637871117150000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3300,7 +3560,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.xr.arsubsystems
-    version: 4.2.3
+    version: 4.2.10
   - name: com.unity.subsystemregistration
     version: 1.1.0
   - name: com.unity.xr.management
@@ -3468,7 +3728,7 @@ m_ResolvedPackages:
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.xr.arsubsystems
-    version: 4.2.3
+    version: 4.2.10
   - name: com.unity.subsystemregistration
     version: 1.1.0
   - name: com.unity.modules.subsystems
@@ -4160,171 +4420,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.3.0
     nextVersion: 
-- packageId: com.unity.xr.arsubsystems@4.2.3
-  testable: 0
-  isDirectDependency: 0
-  version: 4.2.3
-  source: 1
-  resolvedPath: /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.xr.arsubsystems@4.2.3
-  assetPath: Packages/com.unity.xr.arsubsystems
-  name: com.unity.xr.arsubsystems
-  displayName: AR Subsystems
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: Contains definitions for AR Subsystems. This package is a dependency
-    of provider packages, as well as AR Foundation.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 2.0.2
-    - 2.1.0-preview.1
-    - 2.1.0-preview.2
-    - 2.1.0
-    - 2.1.1
-    - 2.1.2
-    - 2.1.3
-    - 2.1.14
-    - 2.1.16
-    - 2.1.18
-    - 2.1.19
-    - 2.2.0-preview.2
-    - 2.2.0-preview.3
-    - 2.2.0-preview.6
-    - 3.0.0-preview.1
-    - 3.0.0-preview.2
-    - 3.0.0-preview.3
-    - 3.0.0-preview.4
-    - 3.0.0
-    - 3.0.2
-    - 3.1.0-preview.1
-    - 3.1.0-preview.2
-    - 3.1.0-preview.4
-    - 3.1.0-preview.6
-    - 3.1.0-preview.7
-    - 3.1.0-preview.8
-    - 3.1.3
-    - 3.1.5
-    - 3.1.6
-    - 3.1.10
-    - 4.0.0-preview.1
-    - 4.0.0-preview.3
-    - 4.0.1
-    - 4.0.8
-    - 4.0.9
-    - 4.0.10
-    - 4.0.12
-    - 4.1.0-preview.1
-    - 4.1.0-preview.2
-    - 4.1.0-preview.3
-    - 4.1.0-preview.5
-    - 4.1.0-preview.6
-    - 4.1.0-preview.7
-    - 4.1.0-preview.9
-    - 4.1.0-preview.10
-    - 4.1.0-preview.11
-    - 4.1.0-preview.12
-    - 4.1.0-preview.13
-    - 4.1.1
-    - 4.1.3
-    - 4.1.5
-    - 4.1.7
-    - 4.1.9
-    - 4.1.10
-    - 4.1.12
-    - 4.1.13
-    - 4.2.0-pre.2
-    - 4.2.0-pre.3
-    - 4.2.0-pre.4
-    - 4.2.0-pre.5
-    - 4.2.0-pre.7
-    - 4.2.0-pre.8
-    - 4.2.0-pre.9
-    - 4.2.0-pre.10
-    - 4.2.0-pre.12
-    - 4.2.0
-    - 4.2.1
-    - 4.2.2
-    - 4.2.3
-    - 4.2.6
-    - 4.2.7
-    - 4.2.8
-    - 4.2.9
-    - 4.2.10
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    - 5.0.0-pre.9
-    - 5.0.0-pre.12
-    - 5.0.0-pre.13
-    - 5.0.2
-    compatible:
-    - 4.2.3
-    - 4.2.6
-    - 4.2.7
-    - 4.2.8
-    - 4.2.9
-    - 4.2.10
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    - 5.0.0-pre.9
-    - 5.0.0-pre.12
-    - 5.0.0-pre.13
-    - 5.0.2
-    verified: 4.2.10
-  dependencies:
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
-  - name: com.unity.xr.management
-    version: 4.0.1
-  resolvedDependencies:
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.xr.management
-    version: 4.2.0
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.9
-  keywords:
-  - subsystem
-  - XR
-  - AR
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 637871117090000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-    revision: 497981bbdfaf531fe240edcfa8f6edfd9aa1567e
-    path: 
-  unityLifecycle:
-    version: 4.2.3
-    nextVersion: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -4391,20 +4486,23 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Contains definitions for Interaction Subsystems. This package is a
     dependency of provider packages.
   status: 4
   errors: []
   versions:
     all:
+    - 0.0.1-preview.3
+    - 1.0.0
     - 1.0.1
+    - 2.0.0
     compatible:
     - 1.0.1
     verified: 1.0.1
   dependencies:
   - name: com.unity.subsystemregistration
-    version: 1.0.6
+    version: 1.0.5
   resolvedDependencies:
   - name: com.unity.subsystemregistration
     version: 1.1.0
@@ -4423,113 +4521,18 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637056471600000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: git@github.cds.internal.unity3d.com:unity/com.unity.xr.interactionsubsystems.git
-    revision: e4d74ea2d737ed36976840f753a2817ef9e4e56d
+    revision: c9d1e6a52c5806d8ec4d9f74ec9eaaf54f07d2c6
     path: 
   unityLifecycle:
     version: 1.0.1
-    nextVersion: 
-- packageId: com.unity.modules.androidjni@1.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.0
-  source: 2
-  resolvedPath: /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.modules.androidjni@1.0.0
-  assetPath: Packages/com.unity.modules.androidjni
-  name: com.unity.modules.androidjni
-  displayName: Android JNI
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'AndroidJNI module allows you to call Java code. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AndroidJNIModule.html'
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    verified: 1.0.0
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-- packageId: com.unity.modules.unitywebrequest@1.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.0
-  source: 2
-  resolvedPath: /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0
-  assetPath: Packages/com.unity.modules.unitywebrequest
-  name: com.unity.modules.unitywebrequest
-  displayName: Unity Web Request
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The UnityWebRequest module lets you communicate with http services.
-    Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestModule.html'
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    verified: 1.0.0
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0

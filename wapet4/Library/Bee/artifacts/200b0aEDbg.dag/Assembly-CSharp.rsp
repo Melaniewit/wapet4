@@ -369,6 +369,8 @@
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/UnityEngine.XR.MagicLeap.ref.dll"
 "Assets/ExampleAssets/Scripts/AnchorCreator.cs"
 "Assets/ExampleAssets/Scripts/ARFeatheredPlaneMeshVisualizer.cs"
+"Assets/Quirky Series Ultimate/_Scripts/Demo.cs"
+"Assets/Scripts/PlaceObject.cs"
 -langversion:9.0
 
 /deterministic

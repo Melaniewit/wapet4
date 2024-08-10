@@ -198,11 +198,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arcore": {
-      "version": "4.2.3",
-      "depth": 1,
+      "version": "4.2.10",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.xr.arsubsystems": "4.2.3",
+        "com.unity.xr.arsubsystems": "4.2.10",
         "com.unity.xr.management": "4.0.1",
         "com.unity.modules.androidjni": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0"
@@ -242,8 +242,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arsubsystems": {
-      "version": "4.2.3",
-      "depth": 2,
+      "version": "4.2.10",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.subsystemregistration": "1.1.0",
@@ -256,7 +256,7 @@
       "depth": 2,
       "source": "registry",
       "dependencies": {
-        "com.unity.subsystemregistration": "1.0.6"
+        "com.unity.subsystemregistration": "1.0.5"
       },
       "url": "https://packages.unity.com"
     },
@@ -311,7 +311,7 @@
     },
     "com.unity.modules.androidjni": {
       "version": "1.0.0",
-      "depth": 2,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {}
     },
@@ -411,7 +411,7 @@
     },
     "com.unity.modules.unitywebrequest": {
       "version": "1.0.0",
-      "depth": 2,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {}
     },

@@ -1,0 +1,1227 @@
+Unity Editor version:    2021.3.6f1 (7da38d85baf6)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.5 (Build 22G74)
+Darwin version:          22.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/melaniewhite/unity project/wapet4/wapet4
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49420
+Successfully changed project path to: /Users/melaniewhite/unity project/wapet4/wapet4
+/Users/melaniewhite/unity project/wapet4/wapet4
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 89.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/melaniewhite/unity project/wapet4/wapet4/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 Pro (high power)
+Metal devices available: 1
+0: Apple M2 Pro (high power)
+Using device Apple M2 Pro (high power)
+Initializing Metal device caps: Apple M2 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56247
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002266 seconds.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 82.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.490 seconds
+Domain Reload Profiling:
+	ReloadAssembly (490ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (348ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (84ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007194 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 79.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.090 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1090ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (819ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (399ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (53.1 KB). Loaded Objects now: 4958.
+Memory consumption went from 160.5 MB to 160.5 MB.
+Total: 3.135625 ms (FindLiveObjects: 0.177833 ms CreateObjectMapping: 0.088833 ms MarkObjects: 2.799209 ms  DeleteObjects: 0.069541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 184036.892763 seconds.
+  path: Assets/ExampleAssets/Prefabs/ARPlane.prefab
+  artifactKey: Guid(3738bd65ede154463b2c35064b9e5fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Prefabs/ARPlane.prefab using Guid(3738bd65ede154463b2c35064b9e5fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927cd4ad00ea438936666e7837ff889a') in 0.115122 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002628 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17fe9b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Domain Reload Profiling:
+	ReloadAssembly (921ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (684ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4491 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (33.7 KB). Loaded Objects now: 4963.
+Memory consumption went from 246.1 MB to 246.0 MB.
+Total: 3.354334 ms (FindLiveObjects: 0.183584 ms CreateObjectMapping: 0.086375 ms MarkObjects: 3.026541 ms  DeleteObjects: 0.057250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004239 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d66b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.880 seconds
+Domain Reload Profiling:
+	ReloadAssembly (881ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (670ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4491 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (33.7 KB). Loaded Objects now: 4967.
+Memory consumption went from 253.4 MB to 253.4 MB.
+Total: 3.305417 ms (FindLiveObjects: 0.161875 ms CreateObjectMapping: 0.092833 ms MarkObjects: 2.998042 ms  DeleteObjects: 0.052250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010680 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16cf4f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.853 seconds
+Domain Reload Profiling:
+	ReloadAssembly (854ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (649ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (231ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4495 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.8 MB). Loaded Objects now: 4973.
+Memory consumption went from 262.2 MB to 261.4 MB.
+Total: 4.136583 ms (FindLiveObjects: 0.206209 ms CreateObjectMapping: 0.099416 ms MarkObjects: 3.301958 ms  DeleteObjects: 0.528375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 874.040231 seconds.
+  path: Assets/Prefabs/Animals.prefab
+  artifactKey: Guid(20f8316de1c01435c89bb35c055c3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animals.prefab using Guid(20f8316de1c01435c89bb35c055c3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc798b760867ebe9b113bddd810cb381') in 0.505186 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (414.6 KB). Loaded Objects now: 4981.
+Memory consumption went from 175.9 MB to 175.5 MB.
+Total: 15.150042 ms (FindLiveObjects: 0.241916 ms CreateObjectMapping: 0.083709 ms MarkObjects: 14.616875 ms  DeleteObjects: 0.207000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (369.8 KB). Loaded Objects now: 4981.
+Memory consumption went from 175.6 MB to 175.2 MB.
+Total: 3.415792 ms (FindLiveObjects: 0.157125 ms CreateObjectMapping: 0.074500 ms MarkObjects: 3.047958 ms  DeleteObjects: 0.135875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004535 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d66b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Domain Reload Profiling:
+	ReloadAssembly (844ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (648ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4493 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (368.9 KB). Loaded Objects now: 4984.
+Memory consumption went from 271.5 MB to 271.2 MB.
+Total: 3.220500 ms (FindLiveObjects: 0.163334 ms CreateObjectMapping: 0.085333 ms MarkObjects: 2.819000 ms  DeleteObjects: 0.152209 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 266.288108 seconds.
+  path: Assets/Scenes/BlankAR.unity
+  artifactKey: Guid(6bdce89659816455b9f906fc62d19910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/BlankAR.unity using Guid(6bdce89659816455b9f906fc62d19910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df85c216cc76cf87c27c555980491bd8') in 0.121878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Dove_LOD3.fbx
+  artifactKey: Guid(107c2761d7b77f2488f63b5f42167913) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Dove_LOD3.fbx using Guid(107c2761d7b77f2488f63b5f42167913) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '73a6415c6a6b4fa49c68d5a65b82a617') in 0.099230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Animations/Cat_Animations.fbx
+  artifactKey: Guid(1b0b46dc3301bde48b59f013024cbec8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Animations/Cat_Animations.fbx using Guid(1b0b46dc3301bde48b59f013024cbec8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1e801c7ac9d4542cb211b8374f672fd') in 0.084390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ExampleAssets/Scripts/ARFeatheredPlaneMeshVisualizer.cs
+  artifactKey: Guid(de9919161fbca46b79a86ecacee38c30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ExampleAssets/Scripts/ARFeatheredPlaneMeshVisualizer.cs using Guid(de9919161fbca46b79a86ecacee38c30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b13534d8e040c033c78b0692b296dd1') in 0.286217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Mouse_LOD1.fbx
+  artifactKey: Guid(f4ea7ad7942175b4389a9bdad5b158ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Mouse_LOD1.fbx using Guid(f4ea7ad7942175b4389a9bdad5b158ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a52de0790577114612400d2d0d680247') in 0.012340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Materials/M_Mouse.mat
+  artifactKey: Guid(5b9a6977b252d5241bf1556df38d583b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Materials/M_Mouse.mat using Guid(5b9a6977b252d5241bf1556df38d583b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aaf0a1ab6aecbc929a06d90354ed81e1') in 0.065412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ExampleAssets/Tutorial/Images/project-header-ar.png
+  artifactKey: Guid(36ba5f0e57d094b0c9364f801bc2bac0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ExampleAssets/Tutorial/Images/project-header-ar.png using Guid(36ba5f0e57d094b0c9364f801bc2bac0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '640b9f3cb0304d146d9a29a3257df24a') in 0.433761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Sleep.anim
+  artifactKey: Guid(b51c1043d37dcca49ab4b15434e67da0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Sleep.anim using Guid(b51c1043d37dcca49ab4b15434e67da0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7be7ee85c83a1dd7f537186272b97707') in 0.040666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Dead.anim
+  artifactKey: Guid(622a6d2ad5070a340b85637ba4b93aaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Dead.anim using Guid(622a6d2ad5070a340b85637ba4b93aaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3216c5318848b844c78094fd7e75289a') in 0.008266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Shrink.anim
+  artifactKey: Guid(106699c25c87b0d469a33ca0f4bb1222) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Shrink.anim using Guid(106699c25c87b0d469a33ca0f4bb1222) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ba7b705e8fc65fa548c43c97f5b9578') in 0.007620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Animations/AC_Mouse.controller
+  artifactKey: Guid(61a3d392e7447ec428edb167a620eb90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Animations/AC_Mouse.controller using Guid(61a3d392e7447ec428edb167a620eb90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46b1ca97ad9a342eb917a512ca36d801') in 0.071424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/XR/Loaders/Open XR Loader.asset
+  artifactKey: Guid(214846e9f11fd534e9e9d02ea5042f1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/Loaders/Open XR Loader.asset using Guid(214846e9f11fd534e9e9d02ea5042f1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd4cadd48213d771ab2adf9b37a55aa9c') in 0.033458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ExampleAssets/Prefabs/ARPlane.prefab
+  artifactKey: Guid(3738bd65ede154463b2c35064b9e5fdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ExampleAssets/Prefabs/ARPlane.prefab using Guid(3738bd65ede154463b2c35064b9e5fdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '50af195e7183e2d19db54912ae4bb119') in 0.017128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Materials/M_Tortoise.mat
+  artifactKey: Guid(f41cfc9cbf35edb469398ad7c137eec1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Materials/M_Tortoise.mat using Guid(f41cfc9cbf35edb469398ad7c137eec1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aad64f8b22ac717452bf5aa2ea4c636f') in 0.003179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Parrot_LOD2.fbx
+  artifactKey: Guid(d86ebd2054b3fd04ab88251025810567) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Parrot_LOD2.fbx using Guid(d86ebd2054b3fd04ab88251025810567) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6bfb13afbd548445d5de7aebeec7049') in 0.010648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Materials/M_Dog.mat
+  artifactKey: Guid(a5d35da825a244a48bdbdcd44e673ba0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Materials/M_Dog.mat using Guid(a5d35da825a244a48bdbdcd44e673ba0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cde649574f6e6aba31320858e19c71ba') in 0.003116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Dog_LOD1.fbx
+  artifactKey: Guid(21c10ff87b85ec441aa479847c342cf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Dog_LOD1.fbx using Guid(21c10ff87b85ec441aa479847c342cf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b0b6ba4eabe68386de5f43fceee398db') in 0.010795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Quirky Series Ultimate/_Shader/URP (Unity 2019.3.0f3 and above)/SoftSurfaceGraph.shadergraph
+  artifactKey: Guid(a44401f8b3d263c4e9c2ed62b3f5adff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Shader/URP (Unity 2019.3.0f3 and above)/SoftSurfaceGraph.shadergraph using Guid(a44401f8b3d263c4e9c2ed62b3f5adff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7de5c7bc1caef37685ded452e69ad9df') in 0.035655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Trauma.anim
+  artifactKey: Guid(dd03e639ddb06de45b9b14f57ab98a11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Trauma.anim using Guid(dd03e639ddb06de45b9b14f57ab98a11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0bb6c9f9eb738d35931794ffbc760694') in 0.007341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ExampleAssets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ExampleAssets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e2f992a784ed0fb204fc33da7ac88deb') in 0.001584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Animations/AC_Parrot.controller
+  artifactKey: Guid(a1761666aae8d8e43b0e0fceb543de31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Animations/AC_Parrot.controller using Guid(a1761666aae8d8e43b0e0fceb543de31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '56308b734093542db6a7db20eebc20ab') in 0.040250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scripts/PlaceObject.cs
+  artifactKey: Guid(b951e07ea58ff4ecb8d9729ea4c54ce9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PlaceObject.cs using Guid(b951e07ea58ff4ecb8d9729ea4c54ce9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e80886a1b84ce563fdb2562c34d9ffb9') in 0.002710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ExampleAssets/Models/cube.fbx
+  artifactKey: Guid(de4da3906a001624fabcc7838ddf2eb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ExampleAssets/Models/cube.fbx using Guid(de4da3906a001624fabcc7838ddf2eb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c89493f75848fdc5f2cdabb57d0eed9d') in 0.056620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Parrot.prefab
+  artifactKey: Guid(b36fce94519368e448b068fd7447702a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Parrot.prefab using Guid(b36fce94519368e448b068fd7447702a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '53cf4c727256c0f00acec64b26b93097') in 0.041271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Dog_LOD0.prefab
+  artifactKey: Guid(7a26f47344bae66488689f73991d3260) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Dog_LOD0.prefab using Guid(7a26f47344bae66488689f73991d3260) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3530a9b55457e7906ec2f7f2f612e63d') in 0.041694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Dog.prefab
+  artifactKey: Guid(8d863aa0b58a54345a3b739c9e0954cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Dog.prefab using Guid(8d863aa0b58a54345a3b739c9e0954cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eef60460aca7eadfcf8600fe052bcc0e') in 0.041845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Cat_LOD1.fbx
+  artifactKey: Guid(0c66e92830216d0438df2afbb78135c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Cat_LOD1.fbx using Guid(0c66e92830216d0438df2afbb78135c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd625da74758fd3474c5ac752728b90e1') in 0.009985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Excited.anim
+  artifactKey: Guid(de1d615e89514514d8c39a591ad539bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Excited.anim using Guid(de1d615e89514514d8c39a591ad539bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '17bff45b5dbab97916bd78f087186d1b') in 0.007162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Textures/T_Cat.png
+  artifactKey: Guid(014a9a76ac71946488b31e350777bb0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Textures/T_Cat.png using Guid(014a9a76ac71946488b31e350777bb0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1c3d3daee1a11ad06bff806428fd39b') in 0.008080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Dog_LOD2.prefab
+  artifactKey: Guid(693bd4f5473ce1c4998a8e006a6c8354) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Dog_LOD2.prefab using Guid(693bd4f5473ce1c4998a8e006a6c8354) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd030d6a189d1b47664079134e30e8b17') in 0.039737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ExampleAssets/Tutorial/TutorialsContainer.asset
+  artifactKey: Guid(58201dbec29094f7a9c5cf1b87912e6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ExampleAssets/Tutorial/TutorialsContainer.asset using Guid(58201dbec29094f7a9c5cf1b87912e6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1b54e1f5fb9a15a5209658828e4d7008') in 0.010469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Textures/T_Mouse.png
+  artifactKey: Guid(bfcdd9cf5a6ef0b4a89c86dabce93a0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Textures/T_Mouse.png using Guid(bfcdd9cf5a6ef0b4a89c86dabce93a0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '17bf37eb6319aa6d3030dc7b19224874') in 0.009476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Rabbit_LOD0.fbx
+  artifactKey: Guid(165a63bbd8d761d4db3641dc7cf5a9d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Rabbit_LOD0.fbx using Guid(165a63bbd8d761d4db3641dc7cf5a9d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3298da3f39e6b5dc247a132850947f00') in 0.010550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Animations/AC_Cat.controller
+  artifactKey: Guid(cc96420140b3c6e4cae96633af1db9d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Animations/AC_Cat.controller using Guid(cc96420140b3c6e4cae96633af1db9d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3647685c6628ebf0df472ba2721b9037') in 0.038971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/XR/Settings/AR Kit Settings.asset
+  artifactKey: Guid(de8a8e4f987434338a4b1062feb8d069) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/Settings/AR Kit Settings.asset using Guid(de8a8e4f987434338a4b1062feb8d069) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '788d3c23a04bbc380473680a44df7c1d') in 0.003740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ExampleAssets/Textures/PlanePatternDot.png
+  artifactKey: Guid(af6bcea09b8134831b6599e2900aef81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ExampleAssets/Textures/PlanePatternDot.png using Guid(af6bcea09b8134831b6599e2900aef81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c638d50a6d9b9f9caae34d58e494fd1') in 0.007800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Dove_LOD0.fbx
+  artifactKey: Guid(887a65c404f8e5f44a4e70c43989b151) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Dove_LOD0.fbx using Guid(887a65c404f8e5f44a4e70c43989b151) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b39be51a953ced20848e73f50f8d8c88') in 0.010392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Tortoise_LOD2.fbx
+  artifactKey: Guid(8421014d3091783419ad29fd3a3ba257) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Tortoise_LOD2.fbx using Guid(8421014d3091783419ad29fd3a3ba257) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc73cd35d2013eeb04b6ea8f8e369add') in 0.011480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Sweat_R.anim
+  artifactKey: Guid(de2e608923f1cf14796462d5ad873f5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Sweat_R.anim using Guid(de2e608923f1cf14796462d5ad873f5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9025f76921e0affe51f19293d870b592') in 0.006954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Squint.anim
+  artifactKey: Guid(d43226420668d044c975f0ecc5809df1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Squint.anim using Guid(d43226420668d044c975f0ecc5809df1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '48945796b8b18aba0cdf4505a7021ada') in 0.006853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Quirky Series Ultimate/_Scripts/Demo.cs
+  artifactKey: Guid(a7e76a4a4e5bb0e458a266391b5f9c63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Scripts/Demo.cs using Guid(a7e76a4a4e5bb0e458a266391b5f9c63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f18b6e93ae2b75f3c497c76c39f8626') in 0.001772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Textures/T_Dog.png
+  artifactKey: Guid(2da50d2fe698419428dbea1cfd7d42db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Textures/T_Dog.png using Guid(2da50d2fe698419428dbea1cfd7d42db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f20dd055e7918a7ade4c3800c90f5443') in 0.007725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Quirky Series Ultimate/_Scripts/DemoController.prefab
+  artifactKey: Guid(3ffd5f966ace6e74dbc3467092bca3c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Scripts/DemoController.prefab using Guid(3ffd5f966ace6e74dbc3467092bca3c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '196a8af1564cf02facd3faf907e34e16') in 0.016083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Blink.anim
+  artifactKey: Guid(ea0360a5fdaf2ac40b8e71ac9294e667) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Blink.anim using Guid(ea0360a5fdaf2ac40b8e71ac9294e667) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '23ba7a5487297136989a6f21c9d931a5') in 0.006970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Annoyed.anim
+  artifactKey: Guid(46d3ef83a1dcd3845b415d3d91a04337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Annoyed.anim using Guid(46d3ef83a1dcd3845b415d3d91a04337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e3db7b7ac10a35a4731a0189b68a4122') in 0.006842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Tortoise_LOD3.fbx
+  artifactKey: Guid(3576fd610498d154dbe26fb156342183) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Tortoise_LOD3.fbx using Guid(3576fd610498d154dbe26fb156342183) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'faecb2f7e4b47480a9cdfcbb5fcfc416') in 0.010067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Pigeon_LOD1.fbx
+  artifactKey: Guid(68bfa6012031e264a8f4720fe1d904fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Pigeon_LOD1.fbx using Guid(68bfa6012031e264a8f4720fe1d904fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '27c162f7ffefffe47544d3967efe629f') in 0.012114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Rabbit_LOD1.prefab
+  artifactKey: Guid(e410f83612335864db991dddf0653961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Rabbit_LOD1.prefab using Guid(e410f83612335864db991dddf0653961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4175b671ff1de93fcba5276a9883d3ac') in 0.040345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Tortoise_LOD3.prefab
+  artifactKey: Guid(3176b5c6877b07541b0fd8d7aa02f9b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Tortoise_LOD3.prefab using Guid(3176b5c6877b07541b0fd8d7aa02f9b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c23164a7ebfadd995281e0f7e57fad24') in 0.040977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Dove_LOD3.prefab
+  artifactKey: Guid(a519c7de1181b9e4d96cbf23750fe083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Dove_LOD3.prefab using Guid(a519c7de1181b9e4d96cbf23750fe083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ee50020f211df66efb6fdb530ce0365d') in 0.040531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Dove_LOD0.prefab
+  artifactKey: Guid(f0956c541318ecb4c90156e4b199cd4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Dove_LOD0.prefab using Guid(f0956c541318ecb4c90156e4b199cd4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '171a2f63895778d57dc3f76e96cea309') in 0.040581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Goldfish_LOD2.prefab
+  artifactKey: Guid(cc43c8de6972ad34eacbb3a76c438c92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Goldfish_LOD2.prefab using Guid(cc43c8de6972ad34eacbb3a76c438c92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0e4dafdfbf42f77710cd8db6523d61e') in 0.041335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Parrot_LOD0.prefab
+  artifactKey: Guid(9b926a7a54150d54a83c849654bcbbea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Parrot_LOD0.prefab using Guid(9b926a7a54150d54a83c849654bcbbea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00c9b146b079943580eba20dcabd9e0d') in 0.040342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Mouse_LOD2.prefab
+  artifactKey: Guid(9ca9aa68f7daa124eaf54254dba588f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Mouse_LOD2.prefab using Guid(9ca9aa68f7daa124eaf54254dba588f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '771e47711f4cb1dc41b13d1a6ccc8325') in 0.040965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Goldfish_LOD3.prefab
+  artifactKey: Guid(afe05ed4bc3f08849be872c49a4d8aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Goldfish_LOD3.prefab using Guid(afe05ed4bc3f08849be872c49a4d8aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37dcda3f878eefb616285886d6adae05') in 0.041395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/M_DemoPlane.mat
+  artifactKey: Guid(cc99e05f4484f3842914e888b3757425) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/M_DemoPlane.mat using Guid(cc99e05f4484f3842914e888b3757425) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd891db034c39d6b84911356435583117') in 0.003316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Materials/M_Goldfish.mat
+  artifactKey: Guid(0aeee44684584cc43aa9d46965a95b6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Materials/M_Goldfish.mat using Guid(0aeee44684584cc43aa9d46965a95b6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '63271c926ac5dee30d9076ff9bbfa835') in 0.002766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Cat_LOD3.fbx
+  artifactKey: Guid(c1996632dde0fb0409fb9d73c24ab48f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Cat_LOD3.fbx using Guid(c1996632dde0fb0409fb9d73c24ab48f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '12a3ca5560c703cc7febc86c6327e53f') in 0.011283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Parrot_LOD0.fbx
+  artifactKey: Guid(e71527bc8b570d347a2b62ec7305ed20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Parrot_LOD0.fbx using Guid(e71527bc8b570d347a2b62ec7305ed20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c361714c785aec378b61b157cabf700') in 0.010157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Cat_LOD3.prefab
+  artifactKey: Guid(44cdda893b3e3b048ab767803bb31938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Cat_LOD3.prefab using Guid(44cdda893b3e3b048ab767803bb31938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c106b92fcb7c84ec6daaa4428272d5b8') in 0.044878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ExampleAssets/Tutorial/Images
+  artifactKey: Guid(4169c8a7a0818423aa84fe774678e570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Tutorial/Images using Guid(4169c8a7a0818423aa84fe774678e570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b99c58227a5e3c79fade76fdd664d25') in 0.000691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Excited.anim
+  artifactKey: Guid(de1d615e89514514d8c39a591ad539bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Excited.anim using Guid(de1d615e89514514d8c39a591ad539bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda0a56ae1b8550c2f9fbd115f2685c1') in 0.010509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/XR/Loaders/AR Core Loader.asset
+  artifactKey: Guid(9b09f0106dcd341a980bb4a4d59799d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/Loaders/AR Core Loader.asset using Guid(9b09f0106dcd341a980bb4a4d59799d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb6211a507e18d333994b571dedf26c5') in 0.003778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/XR/Settings/Magic Leap Settings.asset
+  artifactKey: Guid(1eb95d77acb39444e8cf44313496a874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/Settings/Magic Leap Settings.asset using Guid(1eb95d77acb39444e8cf44313496a874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5175d9bd1445517d72e22de6e041e01d') in 0.003477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Teardrop_R.anim
+  artifactKey: Guid(f98c513bd8b128d479b9c07a41033abf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Teardrop_R.anim using Guid(f98c513bd8b128d479b9c07a41033abf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80d452bff95067bf0a3db3affe1fae4d') in 0.006996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Spin.anim
+  artifactKey: Guid(64dc3627784e421408921cf2a4f9bc38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Spin.anim using Guid(64dc3627784e421408921cf2a4f9bc38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0549e5e138a78637dcf2d179018a8811') in 0.007057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Animations/Goldfish_Animations.fbx
+  artifactKey: Guid(f9fd2d1a292ed5e4bab8b7c49e46db91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Animations/Goldfish_Animations.fbx using Guid(f9fd2d1a292ed5e4bab8b7c49e46db91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '623e5a3458f4298f4874c601b373e9cc') in 0.073041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_LookOut.anim
+  artifactKey: Guid(157603e0cba4708498b2847449eaaf39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_LookOut.anim using Guid(157603e0cba4708498b2847449eaaf39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f6864090d9bb4259e688920ae6ff0d5') in 0.007160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Dove_LOD1.fbx
+  artifactKey: Guid(84080561dd85c59409dd2a59b90be716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Dove_LOD1.fbx using Guid(84080561dd85c59409dd2a59b90be716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cc79c8b78f85b579e1d4f6901a0c20d0') in 0.010386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Pigeon_LOD3.fbx
+  artifactKey: Guid(0a5fab8801f1bfd4abe67d83b0e0fd86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Pigeon_LOD3.fbx using Guid(0a5fab8801f1bfd4abe67d83b0e0fd86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0f35cf0a1599cf9ef209bdc38318bfd8') in 0.009862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Rabid.anim
+  artifactKey: Guid(a0ba351f09d6d844db8bffc74a11490e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Rabid.anim using Guid(a0ba351f09d6d844db8bffc74a11490e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d7ea8010dcd04ec8601a43414a0882c') in 0.008610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Goldfish.prefab
+  artifactKey: Guid(9dca3db7ef2697244afa1a2fa4b684c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Goldfish.prefab using Guid(9dca3db7ef2697244afa1a2fa4b684c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6bfbc5a1f5874429e7d82dd74a9666a5') in 0.045991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_LookDown.anim
+  artifactKey: Guid(ad66aec4451124b46b099414b1ece55c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_LookDown.anim using Guid(ad66aec4451124b46b099414b1ece55c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '700b5e25c0fb72693b0c42a37970765b') in 0.007027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Dog_LOD3.fbx
+  artifactKey: Guid(87dbbfd9f869786488c32d159c997b03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Dog_LOD3.fbx using Guid(87dbbfd9f869786488c32d159c997b03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67168c4ec4d808163174013a13fe6d27') in 0.010036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Materials/M_Rabbit.mat
+  artifactKey: Guid(318693d9cb91ac24cb9a249ef58fe289) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Materials/M_Rabbit.mat using Guid(318693d9cb91ac24cb9a249ef58fe289) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ea5cf774ca42462fd59e1a5f2b7866c') in 0.003150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Goldfish_LOD0.fbx
+  artifactKey: Guid(4c984d92be6cf1c4cbc11b9ff254818b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Goldfish_LOD0.fbx using Guid(4c984d92be6cf1c4cbc11b9ff254818b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98b75c4c5c7cc7110a667e2dabc2592a') in 0.016008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Parrot_LOD1.fbx
+  artifactKey: Guid(ad6bf7220f6682a44bd255bfc1bf27cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Parrot_LOD1.fbx using Guid(ad6bf7220f6682a44bd255bfc1bf27cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '49191a1913e9773b2f54c0be7d8d963b') in 0.010394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/XR/Settings/Open XR Package Settings.asset
+  artifactKey: Guid(6bb381a8ba31f114d9724357633b4625) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/Settings/Open XR Package Settings.asset using Guid(6bb381a8ba31f114d9724357633b4625) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26b0ac0fc9de0b5037636eea810317b8') in 0.030666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Tortoise.prefab
+  artifactKey: Guid(a6002dee3229d954384f4b1de9a0901d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Tortoise.prefab using Guid(a6002dee3229d954384f4b1de9a0901d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d02b4139cb5c6bf57adbe56766c701a') in 0.041227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Parrot_LOD1.prefab
+  artifactKey: Guid(756b811123de8764a9fc9b3b4055fba9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Parrot_LOD1.prefab using Guid(756b811123de8764a9fc9b3b4055fba9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e658378bf1ffcf78e188b3628220dce4') in 0.040343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Animations/Parrot_Animations.fbx
+  artifactKey: Guid(f47f8f42b058c4b40924795ef832a2b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Animations/Parrot_Animations.fbx using Guid(f47f8f42b058c4b40924795ef832a2b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a1e28c280f3c6df5ed2a8bff99253b3') in 0.075359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_LookIn.anim
+  artifactKey: Guid(87fc63539b7bc5e4289cfa980a739084) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_LookIn.anim using Guid(87fc63539b7bc5e4289cfa980a739084) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4335df3e710296e2481bb393744808f7') in 0.006965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Tortoise_LOD0.prefab
+  artifactKey: Guid(968c0c648ca45f24c99c395806c1724f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Tortoise_LOD0.prefab using Guid(968c0c648ca45f24c99c395806c1724f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fef7bd73d644bf972d3fccd52aad232c') in 0.039955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Animations/Dog_Animations.fbx
+  artifactKey: Guid(3260cc258d691cb49a3217333feb794e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Animations/Dog_Animations.fbx using Guid(3260cc258d691cb49a3217333feb794e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d62dabfc2dd26e1e09688ade7b242ad') in 0.077887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/ExampleAssets/Tutorial/ARTutorialWelcomePage.asset
+  artifactKey: Guid(d7ed8cdd171b54fe39c58afde8ff5d51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ExampleAssets/Tutorial/ARTutorialWelcomePage.asset using Guid(d7ed8cdd171b54fe39c58afde8ff5d51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1aa5fbbcba86f4bd41774d5d5ebfae46') in 0.005427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(58f40b12bbc864f3c96c6505a9a1e1e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(58f40b12bbc864f3c96c6505a9a1e1e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6377f29890605b7ec1a9a205b8a319b3') in 0.007996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Dog_LOD1.prefab
+  artifactKey: Guid(7092886b5f3dab648bc28539631d12c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Dog_LOD1.prefab using Guid(7092886b5f3dab648bc28539631d12c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f0c66d74aa12a2bf58f9d6d6075fdb3') in 0.040962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Sad.anim
+  artifactKey: Guid(5991a2af34401064aab845455aaa6a6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Sad.anim using Guid(5991a2af34401064aab845455aaa6a6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87376a2f8383518e91f786fe7b5f816e') in 0.007159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Tortoise_LOD1.fbx
+  artifactKey: Guid(f5b66195f443f614ba2cba20ff26b968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Models/Tortoise_LOD1.fbx using Guid(f5b66195f443f614ba2cba20ff26b968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1caacec871d259d989c9af2155c8929') in 0.012057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/XR/Settings/AR Kit Loader Settings.asset
+  artifactKey: Guid(c02f12437be494530a39604e26294a08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/Settings/AR Kit Loader Settings.asset using Guid(c02f12437be494530a39604e26294a08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fdc698f7f5d4a3c242b3078c44c36ff7') in 0.002571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Mouse_LOD1.prefab
+  artifactKey: Guid(2811f665906a50c42be1cfbd0388c5bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Prefabs/Single LODs/Mouse_LOD1.prefab using Guid(2811f665906a50c42be1cfbd0388c5bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '945fb76ed2f56a757034f8ca9d3dbf0f') in 0.039857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Animations/Dove_Animations.fbx
+  artifactKey: Guid(54cedfb49305ce8408f5d65b39634084) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Animations/Dove_Animations.fbx using Guid(54cedfb49305ce8408f5d65b39634084) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b41770be454983f3c23cb3da37211212') in 0.073256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Sweat_L.anim
+  artifactKey: Guid(770167f42b8505c45b44deb16c90962d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Sweat_L.anim using Guid(770167f42b8505c45b44deb16c90962d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67f74da904e74fa6829df8f2998fdf8e') in 0.007088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Quirky Series Ultimate/_Shader/ToonRamp.shader
+  artifactKey: Guid(cee7e1e6fc45ff143867419e97f4c348) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Quirky Series Ultimate/_Shader/ToonRamp.shader using Guid(cee7e1e6fc45ff143867419e97f4c348) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '931b336fba23fc6fafde4b9a37114598') in 0.044347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.200079 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Textures/T_Tortoise.png
+  artifactKey: Guid(4aaad1a266a57ed4ba0f76bbd60ae0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Textures/T_Tortoise.png using Guid(4aaad1a266a57ed4ba0f76bbd60ae0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa682452b0d8a7826c68b405a32ae86') in 0.027841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.862445 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Textures/T_Pigeon.png
+  artifactKey: Guid(9576c7b5077f2ba4a8ecb74bd20a2f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Textures/T_Pigeon.png using Guid(9576c7b5077f2ba4a8ecb74bd20a2f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1ae3a6def67e5ac03d3b9d96400a07') in 0.004966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Textures/T_Mouse.png
+  artifactKey: Guid(bfcdd9cf5a6ef0b4a89c86dabce93a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Textures/T_Mouse.png using Guid(bfcdd9cf5a6ef0b4a89c86dabce93a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f78d3dd4a1578729f5f97bdccf83037') in 0.003659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Textures/T_Parrot.png
+  artifactKey: Guid(d4bfa82023b88ce4cab6bbc2646778c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Textures/T_Parrot.png using Guid(d4bfa82023b88ce4cab6bbc2646778c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d72ec4c13bda576b9ae4ef898513de') in 0.003254 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (373.7 KB). Loaded Objects now: 4988.
+Memory consumption went from 0.88 GB to 0.88 GB.
+Total: 26.969708 ms (FindLiveObjects: 0.324458 ms CreateObjectMapping: 0.099750 ms MarkObjects: 26.186792 ms  DeleteObjects: 0.358167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (369.8 KB). Loaded Objects now: 4988.
+Memory consumption went from 0.88 GB to 0.88 GB.
+Total: 13.348584 ms (FindLiveObjects: 0.325125 ms CreateObjectMapping: 0.089958 ms MarkObjects: 12.701292 ms  DeleteObjects: 0.231750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 366.764921 seconds.
+  path: Assets/StreamingAssets/UnityServicesProjectConfiguration.json
+  artifactKey: Guid(1cc3df29e06d84e9c80c7cb86e79d677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StreamingAssets/UnityServicesProjectConfiguration.json using Guid(1cc3df29e06d84e9c80c7cb86e79d677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00000000000000000000000000000000') in 0.067035 seconds  code(4) message(Build asset version error: assets/streamingassets/unityservicesprojectconfiguration.json in SourceAssetDB has modification time of '2024-08-10T22:25:24Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: assets/streamingassets/unityservicesprojectconfiguration.json in SourceAssetDB has modification time of '2024-08-10T22:25:24Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (414.6 KB). Loaded Objects now: 4988.
+Memory consumption went from 0.95 GB to 0.95 GB.
+Total: 15.842292 ms (FindLiveObjects: 0.381875 ms CreateObjectMapping: 0.090333 ms MarkObjects: 14.898042 ms  DeleteObjects: 0.471667 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002613 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d66b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.844 seconds
+Domain Reload Profiling:
+	ReloadAssembly (845ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (635ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4493 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (413.8 KB). Loaded Objects now: 4992.
+Memory consumption went from 1.05 GB to 1.05 GB.
+Total: 3.230916 ms (FindLiveObjects: 0.164709 ms CreateObjectMapping: 0.087709 ms MarkObjects: 2.792083 ms  DeleteObjects: 0.186000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (369.2 KB). Loaded Objects now: 4992.
+Memory consumption went from 0.96 GB to 0.96 GB.
+Total: 8.740083 ms (FindLiveObjects: 0.293375 ms CreateObjectMapping: 0.084083 ms MarkObjects: 8.165459 ms  DeleteObjects: 0.196875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2304
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (403.8 KB). Loaded Objects now: 4993.
+Memory consumption went from 0.96 GB to 0.96 GB.
+Total: 16.719000 ms (FindLiveObjects: 0.311000 ms CreateObjectMapping: 0.104125 ms MarkObjects: 16.086458 ms  DeleteObjects: 0.217208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (403.6 KB). Loaded Objects now: 4993.
+Memory consumption went from 0.96 GB to 0.96 GB.
+Total: 10.487667 ms (FindLiveObjects: 0.272625 ms CreateObjectMapping: 0.085959 ms MarkObjects: 9.939541 ms  DeleteObjects: 0.188875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
