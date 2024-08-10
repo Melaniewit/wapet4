@@ -70,17 +70,15 @@ extern void Demo_ChangeShapekey_mAE9F771DA056F1CEB2364946EC4824CA2F7178FC (void)
 extern void Demo_GoToWebsite_mB162C8246C32CB9E49F9162D0ED5E57CD08F6117 (void);
 // 0x0000001D System.Void Demo::.ctor()
 extern void Demo__ctor_mF8CB4DA056D99F53BB80CCCC92E971E42C7D1346 (void);
-// 0x0000001E System.Void PlaceObject::Awake()
-extern void PlaceObject_Awake_mD6993E74BE76ED7E3B9AAA189F1B37638B7D2E70 (void);
-// 0x0000001F System.Void PlaceObject::OnEnable()
-extern void PlaceObject_OnEnable_mB3104C829382C28FD236E0635DD37DC931A2F3EC (void);
-// 0x00000020 System.Void PlaceObject::OnDisable()
-extern void PlaceObject_OnDisable_m4538A06E715E9ADB0910F24DA7BC187D3C6474F1 (void);
-// 0x00000021 System.Void PlaceObject::FingerDown(UnityEngine.InputSystem.EnhancedTouch.Finger)
-extern void PlaceObject_FingerDown_m8F45C6F6D5360556C0854AAA70419FB18BFE1FA9 (void);
-// 0x00000022 System.Void PlaceObject::.ctor()
+// 0x0000001E System.Void PlaceObject::Start()
+extern void PlaceObject_Start_mE0F46F0353CD0065F35D9EEF88BF361EE12DD951 (void);
+// 0x0000001F System.Void PlaceObject::Update()
+extern void PlaceObject_Update_mE52445879BBA344DEBFEDBF6CF23FEE92A059358 (void);
+// 0x00000020 System.Void PlaceObject::InstantiatePrefab(UnityEngine.Pose)
+extern void PlaceObject_InstantiatePrefab_m88AEF70BAD793CFE73C1DD09FB9F57F11B7E033B (void);
+// 0x00000021 System.Void PlaceObject::.ctor()
 extern void PlaceObject__ctor_m73094142430E3C4071B1660682AB5867522D1510 (void);
-static Il2CppMethodPointer s_methodPointers[34] = 
+static Il2CppMethodPointer s_methodPointers[33] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -111,13 +109,12 @@ static Il2CppMethodPointer s_methodPointers[34] =
 	Demo_ChangeShapekey_mAE9F771DA056F1CEB2364946EC4824CA2F7178FC,
 	Demo_GoToWebsite_mB162C8246C32CB9E49F9162D0ED5E57CD08F6117,
 	Demo__ctor_mF8CB4DA056D99F53BB80CCCC92E971E42C7D1346,
-	PlaceObject_Awake_mD6993E74BE76ED7E3B9AAA189F1B37638B7D2E70,
-	PlaceObject_OnEnable_mB3104C829382C28FD236E0635DD37DC931A2F3EC,
-	PlaceObject_OnDisable_m4538A06E715E9ADB0910F24DA7BC187D3C6474F1,
-	PlaceObject_FingerDown_m8F45C6F6D5360556C0854AAA70419FB18BFE1FA9,
+	PlaceObject_Start_mE0F46F0353CD0065F35D9EEF88BF361EE12DD951,
+	PlaceObject_Update_mE52445879BBA344DEBFEDBF6CF23FEE92A059358,
+	PlaceObject_InstantiatePrefab_m88AEF70BAD793CFE73C1DD09FB9F57F11B7E033B,
 	PlaceObject__ctor_m73094142430E3C4071B1660682AB5867522D1510,
 };
-static const int32_t s_InvokerIndices[34] = 
+static const int32_t s_InvokerIndices[33] = 
 {
 	5119,
 	4135,
@@ -125,7 +122,7 @@ static const int32_t s_InvokerIndices[34] =
 	5213,
 	5213,
 	5213,
-	8273,
+	8272,
 	5159,
 	4167,
 	5213,
@@ -134,7 +131,7 @@ static const int32_t s_InvokerIndices[34] =
 	4030,
 	4135,
 	5213,
-	8273,
+	8272,
 	5213,
 	5213,
 	5213,
@@ -150,15 +147,14 @@ static const int32_t s_InvokerIndices[34] =
 	5213,
 	5213,
 	5213,
-	5213,
-	4135,
+	4146,
 	5213,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	34,
+	33,
 	s_methodPointers,
 	0,
 	NULL,
