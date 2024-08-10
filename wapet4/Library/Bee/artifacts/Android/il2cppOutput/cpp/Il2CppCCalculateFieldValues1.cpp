@@ -16937,6 +16937,8 @@ struct PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF  : public MonoBehav
 	ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* ___raycastManager_5;
 	// UnityEngine.Camera PlaceObject::arCamera
 	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___arCamera_6;
+	// UnityEngine.GameObject PlaceObject::instantiatedObject
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___instantiatedObject_7;
 };
 
 // UnityEngine.SpatialTracking.TrackedPoseDriver
@@ -21716,9 +21718,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4459[6] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4460[8] = 
 {
 	static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animals_4)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animalIndex_5)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animationList_6)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___shapekeyList_7)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animal_parent_8)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___dropdownAnimal_9)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___dropdownAnimation_10)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___dropdownShapekey_11)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4461[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4461[4] = 
 {
-	static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___prefab_4)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___raycastManager_5)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___arCamera_6)),};
+	static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___prefab_4)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___raycastManager_5)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___arCamera_6)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___instantiatedObject_7)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4464[6] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,};

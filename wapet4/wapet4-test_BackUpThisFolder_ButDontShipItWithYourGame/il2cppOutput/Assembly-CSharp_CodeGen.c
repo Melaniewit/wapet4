@@ -74,8 +74,8 @@ extern void Demo__ctor_mF8CB4DA056D99F53BB80CCCC92E971E42C7D1346 (void);
 extern void PlaceObject_Start_mE0F46F0353CD0065F35D9EEF88BF361EE12DD951 (void);
 // 0x0000001F System.Void PlaceObject::Update()
 extern void PlaceObject_Update_mE52445879BBA344DEBFEDBF6CF23FEE92A059358 (void);
-// 0x00000020 System.Void PlaceObject::InstantiatePrefab(UnityEngine.Pose)
-extern void PlaceObject_InstantiatePrefab_m88AEF70BAD793CFE73C1DD09FB9F57F11B7E033B (void);
+// 0x00000020 System.Void PlaceObject::PlaceOrMovePrefab(UnityEngine.Pose)
+extern void PlaceObject_PlaceOrMovePrefab_mA4FF564F47E90718654F02F5DDD7E0BABE22C1F0 (void);
 // 0x00000021 System.Void PlaceObject::.ctor()
 extern void PlaceObject__ctor_m73094142430E3C4071B1660682AB5867522D1510 (void);
 static Il2CppMethodPointer s_methodPointers[33] = 
@@ -111,7 +111,7 @@ static Il2CppMethodPointer s_methodPointers[33] =
 	Demo__ctor_mF8CB4DA056D99F53BB80CCCC92E971E42C7D1346,
 	PlaceObject_Start_mE0F46F0353CD0065F35D9EEF88BF361EE12DD951,
 	PlaceObject_Update_mE52445879BBA344DEBFEDBF6CF23FEE92A059358,
-	PlaceObject_InstantiatePrefab_m88AEF70BAD793CFE73C1DD09FB9F57F11B7E033B,
+	PlaceObject_PlaceOrMovePrefab_mA4FF564F47E90718654F02F5DDD7E0BABE22C1F0,
 	PlaceObject__ctor_m73094142430E3C4071B1660682AB5867522D1510,
 };
 static const int32_t s_InvokerIndices[33] = 
