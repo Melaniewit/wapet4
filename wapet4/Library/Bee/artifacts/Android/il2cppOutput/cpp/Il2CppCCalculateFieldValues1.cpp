@@ -16939,6 +16939,8 @@ struct PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF  : public MonoBehav
 	ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3BFFDE26A928* ___aRPlaneManager_6;
 	// System.Collections.Generic.List`1<UnityEngine.XR.ARFoundation.ARRaycastHit> PlaceObject::hits
 	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ___hits_7;
+	// System.Boolean PlaceObject::isPrefabInstantiated
+	bool ___isPrefabInstantiated_8;
 };
 
 // UnityEngine.SpatialTracking.TrackedPoseDriver
@@ -21718,9 +21720,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4459[6] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4460[8] = 
 {
 	static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animals_4)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animalIndex_5)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animationList_6)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___shapekeyList_7)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animal_parent_8)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___dropdownAnimal_9)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___dropdownAnimation_10)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___dropdownShapekey_11)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4461[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4461[5] = 
 {
-	static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___prefab_4)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___aRRaycastManager_5)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___aRPlaneManager_6)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___hits_7)),};
+	static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___prefab_4)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___aRRaycastManager_5)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___aRPlaneManager_6)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___hits_7)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___isPrefabInstantiated_8)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4464[6] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,};

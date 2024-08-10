@@ -4690,9 +4690,6 @@ RuntimeMethod* Enumerator_MoveNext_mF71F7AD2C7C3D2A3DE840026172981A72436CB47_Run
 RuntimeMethod* Enumerator_get_Current_mA7E36939DA28B409D55BE5435221AAC46E40F14C_RuntimeMethod_var = (RuntimeMethod*)(uintptr_t)3221297495;
 RuntimeMethod* Enumerator_MoveNext_m369445A382BCA8EAD027F6783A2F8CDB27A43D2C_RuntimeMethod_var = (RuntimeMethod*)(uintptr_t)3221297497;
 RuntimeMethod* Enumerator_get_Current_m4487F73888564E65B7D2E1228AD465846A0C35A8_RuntimeMethod_var = (RuntimeMethod*)(uintptr_t)3221297499;
-RuntimeMethod* Enumerator_Dispose_m01EBE6E815AD7850E1AEBE3F74FA5AFA9D2CEBC4_RuntimeMethod_var = (RuntimeMethod*)(uintptr_t)3221242043;
-RuntimeMethod* Enumerator_MoveNext_mA8A979ABA69619E1F7137A922310D21CCD924EDC_RuntimeMethod_var = (RuntimeMethod*)(uintptr_t)3221242045;
-RuntimeMethod* Enumerator_get_Current_m4C2D1CE7862FE45C2E0CF07B9A925C93B243EB28_RuntimeMethod_var = (RuntimeMethod*)(uintptr_t)3221242053;
 RuntimeMethod* Enumerator_Dispose_m0B13864D072D08392C943A5BA59B73D3F22C880A_RuntimeMethod_var = (RuntimeMethod*)(uintptr_t)3221242057;
 RuntimeMethod* Enumerator_MoveNext_mDBDDE9DD49D9FC3392E6957D3BAF7D688CF54C37_RuntimeMethod_var = (RuntimeMethod*)(uintptr_t)3221242059;
 RuntimeMethod* Enumerator_get_Current_mB77FD39138AB0CF7D60E59B577E1966F4AA4C64A_RuntimeMethod_var = (RuntimeMethod*)(uintptr_t)3221242067;
@@ -6183,7 +6180,6 @@ RuntimeMethod* List_1_get_Count_m20229C05B183AB5CCE5D8051E78A1CC93AD11AB3_Runtim
 RuntimeMethod* List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9_RuntimeMethod_var = (RuntimeMethod*)(uintptr_t)3221259349;
 RuntimeMethod* List_1_Add_m32B7FC0EB4DA797BFDB203BBDC50F244BFF42358_RuntimeMethod_var = (RuntimeMethod*)(uintptr_t)3221259355;
 RuntimeMethod* List_1_Clear_m745AD367DBF830D48A033BF8A0FEC96327094A99_RuntimeMethod_var = (RuntimeMethod*)(uintptr_t)3221259369;
-RuntimeMethod* List_1_GetEnumerator_m1010F24B75A333F078C9D14989D99651C3AA8CC8_RuntimeMethod_var = (RuntimeMethod*)(uintptr_t)3221259387;
 RuntimeMethod* List_1_Sort_m4FEBA0C65485E9A0594C79AAEB7E96EA829DC2CA_RuntimeMethod_var = (RuntimeMethod*)(uintptr_t)3221259411;
 RuntimeMethod* List_1_get_Count_m947657E2F650AF1E5068D44835812D75F0487EB7_RuntimeMethod_var = (RuntimeMethod*)(uintptr_t)3221259449;
 RuntimeMethod* List_1_get_Item_m443F0D48247776D4257E06597AF794BCF6D8020F_RuntimeMethod_var = (RuntimeMethod*)(uintptr_t)3221259451;

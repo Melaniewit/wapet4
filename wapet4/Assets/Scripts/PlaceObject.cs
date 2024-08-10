@@ -4,8 +4,7 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 using EnhancedTouch = UnityEngine.InputSystem.EnhancedTouch;
 
-
-//place an object on an ARPlane using raycasts.
+// Place an object on an ARPlane using raycasts.
 
 [RequireComponent(typeof(ARRaycastManager), typeof(ARPlaneManager))]
 public class PlaceObject : MonoBehaviour
@@ -16,7 +15,7 @@ public class PlaceObject : MonoBehaviour
     private ARRaycastManager aRRaycastManager;
     private ARPlaneManager aRPlaneManager;
     private List<ARRaycastHit> hits = new List<ARRaycastHit>();
-
+    private bool isPrefabInstantiated = false;  // Flag to track if the prefab is already instantiated
 
     /// Get references to the ARManagers on the gameobject.
 
@@ -25,7 +24,6 @@ public class PlaceObject : MonoBehaviour
         aRRaycastManager = GetComponent<ARRaycastManager>();
         aRPlaneManager = GetComponent<ARPlaneManager>();
     }
-
 
     /// Enable EnhancedTouch and subscribe to the finger down event.
 
@@ -36,7 +34,6 @@ public class PlaceObject : MonoBehaviour
         EnhancedTouch.Touch.onFingerDown += FingerDown;
     }
 
-
     /// Disable EnhancedTouch and unsubscribe from the finger down event.
 
     private void OnDisable()
@@ -46,25 +43,27 @@ public class PlaceObject : MonoBehaviour
         EnhancedTouch.Touch.onFingerDown -= FingerDown;
     }
 
-
     /// Checks to see if there is user finger input using EnhancedTouch, performs a simple raycast using ARRaycast and converts the touch screen coordinates into the AR coordinates to check against trackable planes, and spawns a prefab at the hit position with the hit rotation.
     /// 
     /// Checks if the plane is the ground, and if so, rotates the gameobject to face towards the "player", or camera in this case.
 
-    /// <param name="finger"></param>
     private void FingerDown(EnhancedTouch.Finger finger)
     {
+        if (isPrefabInstantiated) return;  // Return if the prefab has already been instantiated
+
         // Only execute this function if there is one finger on the screen
         if (finger.index != 0) return;
 
-        // Cast a ray from the Touch screen coordinates using the ARRaycastManger, and checks if it hit a trackable object, in this case a plane.
+        // Cast a ray from the Touch screen coordinates using the ARRaycastManager, and checks if it hit a trackable object, in this case a plane.
         if (aRRaycastManager.Raycast(finger.currentTouch.screenPosition, hits, TrackableType.PlaneWithinPolygon))
         {
-            foreach (ARRaycastHit hit in hits)
+            if (hits.Count > 0)
             {
+                ARRaycastHit hit = hits[0];  // Only take the first hit
                 Pose pose = hit.pose;
-                // Spawn the prefab in the intersection point on the plane
                 GameObject obj = Instantiate(prefab, pose.position, pose.rotation);
+                isPrefabInstantiated = true;  // Set the flag to true after instantiation
+
                 // Rotate the instantiated prefab towards the camera 
                 if (aRPlaneManager.GetPlane(hit.trackableId).alignment == PlaneAlignment.HorizontalUp)
                 {
