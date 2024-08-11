@@ -2,54 +2,81 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
-using UnityEngine.InputSystem;
+using EnhancedTouch = UnityEngine.InputSystem.EnhancedTouch;
 
+
+//place an object on an ARPlane using raycasts.
+
+[RequireComponent(typeof(ARRaycastManager), typeof(ARPlaneManager))]
 public class PlaceObject : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject prefab; // Assign   prefab here
+    [SerializeField, Tooltip("The GameObject Prefab we want to instantiate when the raycast hits the plane.")]
+    private GameObject prefab;
 
-    private ARRaycastManager raycastManager;
-    private Camera arCamera; // Reference to the AR camera
-    private GameObject instantiatedObject; // Store the instantiated object
+    private ARRaycastManager aRRaycastManager;
+    private ARPlaneManager aRPlaneManager;
+    private List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
-    void Start()
+
+    /// Get references to the ARManagers on the gameobject.
+
+    private void Awake()
     {
-        raycastManager = FindObjectOfType<ARRaycastManager>();
-        arCamera = Camera.main; // Ensure   AR camera is tagged as "MainCamera"
+        aRRaycastManager = GetComponent<ARRaycastManager>();
+        aRPlaneManager = GetComponent<ARPlaneManager>();
     }
 
-    void Update()
+
+    /// Enable EnhancedTouch and subscribe to the finger down event.
+
+    private void OnEnable()
     {
-        if (Touchscreen.current.primaryTouch.press.isPressed)
+        EnhancedTouch.TouchSimulation.Enable();
+        EnhancedTouch.EnhancedTouchSupport.Enable();
+        EnhancedTouch.Touch.onFingerDown += FingerDown;
+    }
+
+
+    /// Disable EnhancedTouch and unsubscribe from the finger down event.
+
+    private void OnDisable()
+    {
+        EnhancedTouch.TouchSimulation.Disable();
+        EnhancedTouch.EnhancedTouchSupport.Disable();
+        EnhancedTouch.Touch.onFingerDown -= FingerDown;
+    }
+
+
+    /// Checks to see if there is user finger input using EnhancedTouch, performs a simple raycast using ARRaycast and converts the touch screen coordinates into the AR coordinates to check against trackable planes, and spawns a prefab at the hit position with the hit rotation.
+    /// 
+    /// Checks if the plane is the ground, and if so, rotates the gameobject to face towards the "player", or camera in this case.
+
+    /// <param name="finger"></param>
+    private void FingerDown(EnhancedTouch.Finger finger)
+    {
+        // Only execute this function if there is one finger on the screen
+        if (finger.index != 0) return;
+
+        // Cast a ray from the Touch screen coordinates using the ARRaycastManger, and checks if it hit a trackable object, in this case a plane.
+        if (aRRaycastManager.Raycast(finger.currentTouch.screenPosition, hits, TrackableType.PlaneWithinPolygon))
         {
-            Vector2 touchPosition = Touchscreen.current.primaryTouch.position.ReadValue();
-            List<ARRaycastHit> hits = new List<ARRaycastHit>();
-            if (raycastManager.Raycast(touchPosition, hits, TrackableType.PlaneWithinPolygon))
+            foreach (ARRaycastHit hit in hits)
             {
-                Pose hitPose = hits[0].pose;
-                PlaceOrMovePrefab(hitPose);
+                Pose pose = hit.pose;
+                // Spawn the prefab in the intersection point on the plane
+                GameObject obj = Instantiate(prefab, pose.position, pose.rotation);
+                // Rotate the instantiated prefab towards the camera 
+                if (aRPlaneManager.GetPlane(hit.trackableId).alignment == PlaneAlignment.HorizontalUp)
+                {
+                    Vector3 position = obj.transform.position;
+                    Vector3 cameraPosition = Camera.main.transform.position;
+                    Vector3 direction = cameraPosition - position;
+                    Vector3 targetRotationEuler = Quaternion.LookRotation(direction).eulerAngles;
+                    Vector3 scaledEuler = Vector3.Scale(targetRotationEuler, obj.transform.up.normalized); // (0, 1, 0)
+                    Quaternion targetRotation = Quaternion.Euler(scaledEuler);
+                    obj.transform.rotation = obj.transform.rotation * targetRotation;
+                }
             }
         }
-    }
-
-    void PlaceOrMovePrefab(Pose pose)
-    {
-        if (instantiatedObject == null)
-        {
-            // Instantiate the object for the first time
-            instantiatedObject = Instantiate(prefab, pose.position, Quaternion.identity);
-        }
-        else
-        {
-            // Move the existing object to the new position
-            instantiatedObject.transform.position = pose.position;
-        }
-
-        // Update rotation to face the camera
-        Vector3 lookDirection = arCamera.transform.position - instantiatedObject.transform.position;
-        lookDirection.y = 0; // Ignore y component to avoid tilting the prefab
-        Quaternion rotation = Quaternion.LookRotation(lookDirection);
-        instantiatedObject.transform.rotation = rotation;
     }
 }

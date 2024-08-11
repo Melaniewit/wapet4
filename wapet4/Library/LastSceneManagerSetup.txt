@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/BlankAR.unity
+- path: Assets/Scenes/App Desgin/AR_plane_detection.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
