@@ -2,13 +2,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
-using EnhancedTouch = UnityEngine.InputSystem.EnhancedTouch;
+using UnityEngine.InputSystem;  // For general Input System functionality
+using EnhancedTouch = UnityEngine.InputSystem.EnhancedTouch;  // Alias for clarity
 
 [RequireComponent(typeof(ARRaycastManager), typeof(ARPlaneManager))]
 public class PlaceObject : MonoBehaviour
 {
     [SerializeField]
-    private GameObject prefab;  // The GameObject Prefab we want to instantiate when the raycast hits the plane.
+    private GameObject prefab;  // The GameObject Prefab to instantiate when the raycast hits the plane.
 
     private ARRaycastManager aRRaycastManager;
     private ARPlaneManager aRPlaneManager;
@@ -19,38 +20,37 @@ public class PlaceObject : MonoBehaviour
     {
         aRRaycastManager = GetComponent<ARRaycastManager>();
         aRPlaneManager = GetComponent<ARPlaneManager>();
+        EnhancedTouch.EnhancedTouchSupport.Enable();  // Enable Enhanced Touch support
     }
 
     private void OnEnable()
     {
-        EnhancedTouch.TouchSimulation.Enable();
-        EnhancedTouch.EnhancedTouchSupport.Enable();
         EnhancedTouch.Touch.onFingerDown += FingerDown;
     }
 
     private void OnDisable()
     {
-        EnhancedTouch.TouchSimulation.Disable();
-        EnhancedTouch.EnhancedTouchSupport.Disable();
         EnhancedTouch.Touch.onFingerDown -= FingerDown;
     }
 
     private void FingerDown(EnhancedTouch.Finger finger)
     {
-        if (finger.index != 0) return;
+        if (finger.index != 0) return;  // Only react to the first (primary) touch
 
-        if (aRRaycastManager.Raycast(finger.currentTouch.screenPosition, hits, TrackableType.PlaneWithinPolygon))
+        if (aRRaycastManager.Raycast(finger.screenPosition, hits, TrackableType.PlaneWithinPolygon))
         {
             Pose pose = hits[0].pose;
 
             if (spawnedObject == null)
             {
-                // Instantiate only if there's no object spawned yet
                 spawnedObject = Instantiate(prefab, pose.position, pose.rotation);
+                // Find DemoController and set the instantiated object for control
+                Demo demoController = FindObjectOfType<Demo>();  // Ensure only one DemoController in the scene
+                if (demoController != null)
+                    demoController.SetControlledObject(spawnedObject);  // Pass reference
             }
             else
             {
-                // Move the existing object instead of instantiating a new one
                 spawnedObject.transform.position = pose.position;
                 spawnedObject.transform.rotation = pose.rotation;
             }

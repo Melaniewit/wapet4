@@ -34416,16 +34416,14 @@ struct Demo_t604A0ABD5699528B48A75285A69A8B9377779903  : public MonoBehaviour_t5
 	Dictionary_2_tFF5BAE20C79FF62D8212212465EDB4D26909FFE9* ___animationSpeedMap_10;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>> Demo::animalAnimationMap
 	Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* ___animalAnimationMap_11;
-	// UnityEngine.Transform Demo::animal_parent
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___animal_parent_12;
 	// UnityEngine.UI.Dropdown Demo::dropdownAnimal
-	Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___dropdownAnimal_13;
+	Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___dropdownAnimal_12;
 	// UnityEngine.UI.Dropdown Demo::dropdownAnimation
-	Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___dropdownAnimation_14;
+	Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___dropdownAnimation_13;
 	// UnityEngine.UI.Dropdown Demo::dropdownShapekey
-	Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___dropdownShapekey_15;
+	Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___dropdownShapekey_14;
 	// UnityEngine.InputSystem.Keyboard Demo::keyboard
-	Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* ___keyboard_16;
+	Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* ___keyboard_15;
 };
 
 // DropdownSample

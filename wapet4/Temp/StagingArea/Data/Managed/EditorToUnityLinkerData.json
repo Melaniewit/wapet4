@@ -748,13 +748,6 @@
         {
             "managedAssemblyName": "Unity.XR.ARFoundation.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARPoseDriver",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARRaycastManager",
             "moduleName": "",
             "usedInScenes": []

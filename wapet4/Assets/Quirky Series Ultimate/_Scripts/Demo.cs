@@ -1,36 +1,24 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
-using UnityEngine.InputSystem;  // Add this to use the new Input System
-
+using UnityEngine.InputSystem;
 
 public class Demo : MonoBehaviour
 {
-
-    private GameObject[] animals;
+    private GameObject[] animals;  // Array to handle animals; will use this to store the controlled object
     private int animalIndex;
     private List<string> animationList = new List<string>
-                                            {   "Idle_A",
-                                                "Walk",
-                                                "Bounce",
-                                                "Clicked",
-                                                "Eat",
-                                                "Fly",
-                                                "Jump",
-                                                "Run",
-                                                "Sit",
-                                                "Swim",
-                                                "Spin"
-                                            };
+                                        {
+                                            "Idle_A", "Walk", "Bounce", "Clicked",
+                                            "Eat", "Fly", "Jump", "Run",
+                                            "Sit", "Swim", "Spin"
+                                        };
     private List<string> shapekeyList = new List<string>
-                                            {   "Eyes_Blink",
-                                                "Eyes_Excited",
-                                                "Eyes_Happy",
-                                                "Eyes_Sad",
-                                                "Eyes_Sleep",
-                                                "Eyes_Annoyed",
-                                                "Eyes_Cry"
-                                            };
+                                        {
+                                            "Eyes_Blink", "Eyes_Excited", "Eyes_Happy",
+                                            "Eyes_Sad", "Eyes_Sleep", "Eyes_Annoyed",
+                                            "Eyes_Cry"
+                                        };
 
     // Dictionary to map original animation names to display names
     private Dictionary<string, string> animationNameMap = new Dictionary<string, string>
@@ -77,52 +65,50 @@ public class Demo : MonoBehaviour
     };
 
     // Dictionary to store available animations for each animal
-    private Dictionary<string, List<string>> animalAnimationMap = new Dictionary<string, List<string>> //changed!!
-    { //changed!!
-        { "Cat", new List<string> { "Idle_A","Walk", "Run", "Sit", "Jump", "Eat",  "Swim","Spin" } }, //changed!!
-        { "Dog", new List<string> { "Idle_A", "Walk", "Run", "Sit", "Jump", "Eat" ,  "Swim","Spin"} }, //changed!!
-        { "Dove", new List<string> { "Idle_A", "Bounce", "Clicked", "Fly", "Eat" , "Spin"} }, //changed!!
-        { "Goldfish", new List<string> { "Idle_A", "Bounce", "Clicked", "Swim","Eat", "Spin" } }, //changed!!
-        { "Mouse", new List<string> { "Idle_A", "Walk", "Run", "Jump", "Eat",  "Swim","Spin" } }, //changed!!
-        { "Parrot", new List<string> { "Idle_A", "Bounce", "Clicked", "Fly", "Eat", "Spin" } }, //changed!!
-        { "Pigeon", new List<string> { "Idle_A", "Bounce", "Clicked", "Fly", "Eat", "Spin" } }, //changed!!
-        { "Rabbit", new List<string> { "Idle_A", "Walk", "Run", "Jump", "Eat", "Spin" } }, //changed!!
-        { "Tortoise", new List<string> { "Idle_A", "Walk", "Run", "Sit", "Eat", "Swim", "Spin" } } //changed!!
-    }; //changed!!
+    private Dictionary<string, List<string>> animalAnimationMap = new Dictionary<string, List<string>>
+    {
+        { "Cat", new List<string> { "Idle_A","Walk", "Run", "Sit", "Jump", "Eat",  "Swim","Spin" } },
+        { "Dog", new List<string> { "Idle_A", "Walk", "Run", "Sit", "Jump", "Eat" ,  "Swim","Spin"} },
+        { "Dove", new List<string> { "Idle_A", "Bounce", "Clicked", "Fly", "Eat" , "Spin"} },
+        { "Goldfish", new List<string> { "Idle_A", "Bounce", "Clicked", "Swim","Eat", "Spin" } },
+        { "Mouse", new List<string> { "Idle_A", "Walk", "Run", "Jump", "Eat",  "Swim","Spin" } },
+        { "Parrot", new List<string> { "Idle_A", "Bounce", "Clicked", "Fly", "Eat", "Spin" } },
+        { "Pigeon", new List<string> { "Idle_A", "Bounce", "Clicked", "Fly", "Eat", "Spin" } },
+        { "Rabbit", new List<string> { "Idle_A", "Walk", "Run", "Jump", "Eat", "Spin" } },
+        { "Tortoise", new List<string> { "Idle_A", "Walk", "Run", "Sit", "Eat", "Swim", "Spin" } }
+    };
 
     [Space(10)]
-    Transform animal_parent;
     Dropdown dropdownAnimal;
     Dropdown dropdownAnimation;
     Dropdown dropdownShapekey;
 
     private Keyboard keyboard; // For input checking
-    void Start()
+
+    // Method to set the controlled object from the PlaceObject script
+    public void SetControlledObject(GameObject animal)
     {
-        animal_parent = GameObject.Find("Animals").transform;
+        if (animals == null)
+            animals = new GameObject[1];  // Initialize the array if null
+        animals[0] = animal;  // Set the controlled object
+
+        // Initialize UI and animations
+        InitializeUI();
+        ChangeAnimal();  // Ensure correct animal is set up
+    }
+
+    private void InitializeUI()
+    {
         Transform canvas = GameObject.Find("Canvas").transform;
+
         dropdownAnimal = canvas.Find("Animal").Find("Dropdown").GetComponent<Dropdown>();
         dropdownAnimation = canvas.Find("Animation").Find("Dropdown").GetComponent<Dropdown>();
         dropdownShapekey = canvas.Find("Shapekey").Find("Dropdown").GetComponent<Dropdown>();
 
-        int count = animal_parent.childCount;
-        animals = new GameObject[count];
-        List<string> animalList = new List<string>();
-
-
-        for (int i = 0; i < count; i++)
-        {
-            animals[i] = animal_parent.GetChild(i).gameObject;
-            string n = animal_parent.GetChild(i).name;
-            animalList.Add(n);
-            if (i == 0) animals[i].SetActive(true);
-            else animals[i].SetActive(false);
-        }
-
+        // Initialize the dropdown options based on the instantiated animal
+        List<string> animalList = new List<string> { animals[0].name };
+        dropdownAnimal.ClearOptions();
         dropdownAnimal.AddOptions(animalList);
-
-        // Initialize with the first animal's animations
-        ChangeAnimal();
 
         // Use the mapped display names for shape keys
         List<string> displayShapekeyList = new List<string>();
@@ -136,7 +122,6 @@ public class Demo : MonoBehaviour
 
         dropdownShapekey.value = 1;
         ChangeShapekey();
-        keyboard = Keyboard.current; // Initialize keyboard
     }
 
     void Update()
@@ -152,55 +137,44 @@ public class Demo : MonoBehaviour
         else if (keyboard.leftArrowKey.wasPressedThisFrame) { PrevAnimation(); }
     }
 
-
     public void NextAnimal()
     {
-        if (dropdownAnimal.value >= dropdownAnimal.options.Count - 1)
-            dropdownAnimal.value = 0;
-        else
-            dropdownAnimal.value++;
-
+        // Since we're only working with one instantiated animal, we can simplify this
+        dropdownAnimal.value = 0;
         ChangeAnimal();
     }
 
     public void PrevAnimal()
     {
-        if (dropdownAnimal.value <= 0)
-            dropdownAnimal.value = dropdownAnimal.options.Count - 1;
-        else
-            dropdownAnimal.value--;
-
+        // Since we're only working with one instantiated animal, we can simplify this
+        dropdownAnimal.value = 0;
         ChangeAnimal();
     }
 
     public void ChangeAnimal()
     {
-        animals[animalIndex].SetActive(false);
-        animals[dropdownAnimal.value].SetActive(true);
-        animalIndex = dropdownAnimal.value;
-
-        UpdateAnimationDropdown(); //changed!!
-
+        // Since we're only working with one animal, this method is simplified
+        UpdateAnimationDropdown();
         ChangeAnimation();
         ChangeShapekey();
     }
 
     void UpdateAnimationDropdown()
-    { //changed!!
-        string animalName = animals[dropdownAnimal.value].name; //changed!!
+    {
+        string animalName = animals[0].name;
         if (animalAnimationMap.ContainsKey(animalName))
-        { //changed!!
-            List<string> animations = animalAnimationMap[animalName]; //changed!!
-            List<string> displayAnimations = new List<string>(); //changed!!
+        {
+            List<string> animations = animalAnimationMap[animalName];
+            List<string> displayAnimations = new List<string>();
             foreach (string anim in animations)
-            { //changed!!
-                string displayName = animationNameMap.ContainsKey(anim) ? animationNameMap[anim] : anim; //changed!!
-                displayAnimations.Add(displayName); //changed!!
-            } //changed!!
-            dropdownAnimation.ClearOptions(); //changed!!
-            dropdownAnimation.AddOptions(displayAnimations); //changed!!
-        } //changed!!
-    } //changed!!
+            {
+                string displayName = animationNameMap.ContainsKey(anim) ? animationNameMap[anim] : anim;
+                displayAnimations.Add(displayName);
+            }
+            dropdownAnimation.ClearOptions();
+            dropdownAnimation.AddOptions(displayAnimations);
+        }
+    }
 
     public void NextAnimation()
     {
@@ -224,10 +198,10 @@ public class Demo : MonoBehaviour
 
     public void ChangeAnimation()
     {
-        Animator animator = animals[dropdownAnimal.value].GetComponent<Animator>();
+        Animator animator = animals[0].GetComponent<Animator>();
         if (animator != null)
         {
-            string animName = animalAnimationMap[animals[dropdownAnimal.value].name][dropdownAnimation.value]; //changed!!
+            string animName = animalAnimationMap[animals[0].name][dropdownAnimation.value];
 
             // Set the animation speed
             if (animationSpeedMap.ContainsKey(animName))
@@ -265,10 +239,10 @@ public class Demo : MonoBehaviour
 
     public void ChangeShapekey()
     {
-        Animator animator = animals[dropdownAnimal.value].GetComponent<Animator>();
+        Animator animator = animals[0].GetComponent<Animator>();
         if (animator != null)
         {
-            string shapeKeyName = shapekeyList[dropdownShapekey.value]; // Use original name
+            string shapeKeyName = shapekeyList[dropdownShapekey.value];
 
             animator.Play(shapeKeyName); // Play using original name
         }

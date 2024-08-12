@@ -29,7 +29,6 @@
 		<type fullname="UnityEngine.XR.ARFoundation.ARPlane" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARPlaneManager" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer" preserve="nothing"/>
-		<type fullname="UnityEngine.XR.ARFoundation.ARPoseDriver" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARRaycastManager" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARSession" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARSessionOrigin" preserve="nothing"/>

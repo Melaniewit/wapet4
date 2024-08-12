@@ -24875,16 +24875,14 @@ struct Demo_t604A0ABD5699528B48A75285A69A8B9377779903  : public MonoBehaviour_t5
 	Dictionary_2_tFF5BAE20C79FF62D8212212465EDB4D26909FFE9* ___animationSpeedMap_10;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>> Demo::animalAnimationMap
 	Dictionary_2_t79BA378F246EFA4AD0AFFA017D788423CACA8638* ___animalAnimationMap_11;
-	// UnityEngine.Transform Demo::animal_parent
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___animal_parent_12;
 	// UnityEngine.UI.Dropdown Demo::dropdownAnimal
-	Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___dropdownAnimal_13;
+	Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___dropdownAnimal_12;
 	// UnityEngine.UI.Dropdown Demo::dropdownAnimation
-	Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___dropdownAnimation_14;
+	Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___dropdownAnimation_13;
 	// UnityEngine.UI.Dropdown Demo::dropdownShapekey
-	Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___dropdownShapekey_15;
+	Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___dropdownShapekey_14;
 	// UnityEngine.InputSystem.Keyboard Demo::keyboard
-	Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* ___keyboard_16;
+	Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* ___keyboard_15;
 };
 
 // DropdownSample
@@ -29954,9 +29952,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7349[6] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7350[5] = 
 {
 	static_cast<int32_t>(offsetof(PlaceOnPlane_t717C58662DC565F29819D900A31C0F3649A406E3, ___m_PlacedPrefab_4)),static_cast<int32_t>(offsetof(PlaceOnPlane_t717C58662DC565F29819D900A31C0F3649A406E3, ___visualObject_5)),static_cast<int32_t>(offsetof(PlaceOnPlane_t717C58662DC565F29819D900A31C0F3649A406E3, ___m_RaycastManager_6)),static_cast<int32_t>(offsetof(PlaceOnPlane_t717C58662DC565F29819D900A31C0F3649A406E3, ___spawnedObject_7)),static_cast<int32_t>(offsetof(PlaceOnPlane_t717C58662DC565F29819D900A31C0F3649A406E3_StaticFields, ___s_Hits_8)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7351[13] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7351[12] = 
 {
-	static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animals_4)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animalIndex_5)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animationList_6)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___shapekeyList_7)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animationNameMap_8)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___shapekeyNameMap_9)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animationSpeedMap_10)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animalAnimationMap_11)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animal_parent_12)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___dropdownAnimal_13)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___dropdownAnimation_14)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___dropdownShapekey_15)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___keyboard_16)),};
+	static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animals_4)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animalIndex_5)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animationList_6)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___shapekeyList_7)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animationNameMap_8)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___shapekeyNameMap_9)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animationSpeedMap_10)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___animalAnimationMap_11)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___dropdownAnimal_12)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___dropdownAnimation_13)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___dropdownShapekey_14)),static_cast<int32_t>(offsetof(Demo_t604A0ABD5699528B48A75285A69A8B9377779903, ___keyboard_15)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7353[5] = 
 {
 	static_cast<int32_t>(offsetof(ARTapToPlaceIndicator_t6F915C0F76F2B292F02AFB2A9BF5133858BB726F, ___placementIndicator_4)),static_cast<int32_t>(offsetof(ARTapToPlaceIndicator_t6F915C0F76F2B292F02AFB2A9BF5133858BB726F, ___raycastManager_5)),static_cast<int32_t>(offsetof(ARTapToPlaceIndicator_t6F915C0F76F2B292F02AFB2A9BF5133858BB726F, ___arOrigin_6)),static_cast<int32_t>(offsetof(ARTapToPlaceIndicator_t6F915C0F76F2B292F02AFB2A9BF5133858BB726F, ___placementPose_7)),static_cast<int32_t>(offsetof(ARTapToPlaceIndicator_t6F915C0F76F2B292F02AFB2A9BF5133858BB726F, ___placementPoseIsValid_8)),};
