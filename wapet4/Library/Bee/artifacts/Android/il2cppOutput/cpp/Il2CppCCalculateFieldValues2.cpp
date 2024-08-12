@@ -25082,8 +25082,10 @@ struct PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF  : public MonoBehav
 	ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* ___aRRaycastManager_5;
 	// UnityEngine.XR.ARFoundation.ARPlaneManager PlaceObject::aRPlaneManager
 	ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3BFFDE26A928* ___aRPlaneManager_6;
+	// UnityEngine.GameObject PlaceObject::spawnedObject
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___spawnedObject_7;
 	// System.Collections.Generic.List`1<UnityEngine.XR.ARFoundation.ARRaycastHit> PlaceObject::hits
-	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ___hits_7;
+	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ___hits_8;
 };
 
 // PlaceOnPlane
@@ -29979,9 +29981,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7365[4] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7366[2] = 
 {
 	static_cast<int32_t>(offsetof(PlayerProfile_t485584ACA36D9374FF3CE2F8E145F76894AA7CD4, ___playerInfo_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(PlayerProfile_t485584ACA36D9374FF3CE2F8E145F76894AA7CD4, ___Name_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7367[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7367[5] = 
 {
-	static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___prefab_4)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___aRRaycastManager_5)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___aRPlaneManager_6)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___hits_7)),};
+	static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___prefab_4)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___aRRaycastManager_5)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___aRPlaneManager_6)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___spawnedObject_7)),static_cast<int32_t>(offsetof(PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF, ___hits_8)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7368[1] = 
 {
 	static_cast<int32_t>(offsetof(PopUpController_t268606CBCC7C08B18C6245B13B86D8C61B2F531F, ___panelToHide_4)),};
