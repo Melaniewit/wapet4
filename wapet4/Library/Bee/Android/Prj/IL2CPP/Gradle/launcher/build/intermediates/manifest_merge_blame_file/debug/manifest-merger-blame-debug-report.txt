@@ -85,7 +85,7 @@
 50        android:label="@string/app_name" >
 50-->/Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:16-48
 51        <activity
-51-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-56:20
+51-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-67:20
 52            android:name="com.unity3d.player.UnityPlayerActivity"
 52-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-66
 53            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
@@ -123,70 +123,115 @@
 69-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:17-53
 70                android:value="true" />
 70-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:17-37
-71        </activity>
-72
-73        <meta-data
-73-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:9-60:33
-74            android:name="unity.splash-mode"
-74-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:59:13-45
-75            android:value="0" />
-75-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:13-30
-76        <meta-data
-76-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:9-63:36
-77            android:name="unity.splash-enable"
-77-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:13-47
-78            android:value="True" />
-78-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:63:13-33
-79        <meta-data
-79-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:64:9-66:36
-80            android:name="unity.launch-fullscreen"
-80-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:65:13-51
-81            android:value="True" />
-81-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:66:13-33
-82        <meta-data
-82-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:67:9-69:37
-83            android:name="unity.allow-resizable-window"
-83-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:68:13-56
-84            android:value="False" />
-84-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:69:13-34
-85        <meta-data
-85-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:70:9-72:50
-86            android:name="notch.config"
-86-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:71:13-40
-87            android:value="portrait|landscape" />
-87-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:72:13-47
-88        <meta-data
-88-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:73:9-75:36
-89            android:name="unityplayer.SkipPermissionsDialog"
-89-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:74:13-61
-90            android:value="true" />
-90-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:75:13-33
-91        <meta-data
-91-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:76:9-78:40
-92            android:name="com.google.ar.core"
-92-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:77:13-46
-93            android:value="required" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
-93-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:78:13-37
-94        <meta-data
-94-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:36:9-38:41
-95            android:name="com.google.ar.core.min_apk_version"
-95-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:37:13-62
-96            android:value="210910000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
-96-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:38:13-38
-97        <activity
-97-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:40:9-46:80
-98            android:name="com.google.ar.core.InstallActivity"
-98-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:41:13-62
-99            android:configChanges="keyboardHidden|orientation|screenSize"
-99-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:42:13-74
-100            android:excludeFromRecents="true"
-100-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:43:13-46
-101            android:exported="false"
-101-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:44:13-37
-102            android:launchMode="singleTop"
-102-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:45:13-43
-103            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
-103-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:46:13-77
-104    </application>
-105
-106</manifest>
+71
+72            <intent-filter xmlns:android="http://schemas.android.com/apk/res/android" >
+72-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:13-66:29
+72-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:28-86
+73                <action android:name="android.intent.action.VIEW" />
+73-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:17-69
+73-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:25-66
+74
+75                <category android:name="android.intent.category.DEFAULT" />
+75-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:17-76
+75-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:27-73
+76                <category android:name="android.intent.category.BROWSABLE" />
+76-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:17-78
+76-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:27-75
+77
+78                <data
+78-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:63:17-65:48
+79                    android:host="com.unityplayeraccounts.b69a546d-c072-450a-8032-6f48b849301b"
+79-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:64:21-96
+80                    android:scheme="unitydl" />
+80-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:65:21-45
+81            </intent-filter>
+82        </activity>
+83
+84        <meta-data
+84-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:69:9-71:33
+85            android:name="unity.splash-mode"
+85-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:70:13-45
+86            android:value="0" />
+86-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:71:13-30
+87        <meta-data
+87-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:72:9-74:36
+88            android:name="unity.splash-enable"
+88-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:73:13-47
+89            android:value="True" />
+89-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:74:13-33
+90        <meta-data
+90-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:75:9-77:36
+91            android:name="unity.launch-fullscreen"
+91-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:76:13-51
+92            android:value="True" />
+92-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:77:13-33
+93        <meta-data
+93-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:78:9-80:37
+94            android:name="unity.allow-resizable-window"
+94-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:79:13-56
+95            android:value="False" />
+95-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:80:13-34
+96        <meta-data
+96-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:81:9-83:50
+97            android:name="notch.config"
+97-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:82:13-40
+98            android:value="portrait|landscape" />
+98-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:83:13-47
+99
+100        <receiver
+100-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:85:9-87:40
+101            android:name="com.unity.androidnotifications.UnityNotificationManager"
+101-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:86:13-83
+102            android:exported="false" />
+102-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:87:13-37
+103        <receiver
+103-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:88:9-95:20
+104            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+104-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:89:13-97
+105            android:enabled="false"
+105-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:90:13-36
+106            android:exported="false" >
+106-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:91:13-37
+107            <intent-filter>
+107-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:92:13-94:29
+108                <action android:name="android.intent.action.BOOT_COMPLETED" />
+108-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:93:17-79
+108-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:93:25-76
+109            </intent-filter>
+110        </receiver>
+111
+112        <meta-data
+112-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:97:9-99:36
+113            android:name="unityplayer.SkipPermissionsDialog"
+113-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:98:13-61
+114            android:value="true" />
+114-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:99:13-33
+115        <meta-data
+115-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:100:9-102:40
+116            android:name="com.google.ar.core"
+116-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:101:13-46
+117            android:value="required" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+117-->[:unityLibrary] /Users/melaniewhite/unity project/wapet4/wapet4/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:102:13-37
+118        <meta-data
+118-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:36:9-38:41
+119            android:name="com.google.ar.core.min_apk_version"
+119-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:37:13-62
+120            android:value="210910000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+120-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:38:13-38
+121        <activity
+121-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:40:9-46:80
+122            android:name="com.google.ar.core.InstallActivity"
+122-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:41:13-62
+123            android:configChanges="keyboardHidden|orientation|screenSize"
+123-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:42:13-74
+124            android:excludeFromRecents="true"
+124-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:43:13-46
+125            android:exported="false"
+125-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:44:13-37
+126            android:launchMode="singleTop"
+126-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:45:13-43
+127            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+127-->[:arcore_client:] /Users/melaniewhite/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:46:13-77
+128    </application>
+129
+130</manifest>

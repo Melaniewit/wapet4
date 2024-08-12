@@ -53,6 +53,17 @@
             <meta-data
                 android:name="android.notch_support"
                 android:value="true" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="com.unityplayeraccounts.b69a546d-c072-450a-8032-6f48b849301b"
+                    android:scheme="unitydl" />
+            </intent-filter>
         </activity>
 
         <meta-data
@@ -70,6 +81,19 @@
         <meta-data
             android:name="notch.config"
             android:value="portrait|landscape" />
+
+        <receiver
+            android:name="com.unity.androidnotifications.UnityNotificationManager"
+            android:exported="false" />
+        <receiver
+            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
         <meta-data
             android:name="unityplayer.SkipPermissionsDialog"
             android:value="true" />

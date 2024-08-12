@@ -1,4 +1,10 @@
+Library/Bee/artifacts/mvdfrm/Unity.AdaptivePerformance.ref.dll_421B27D896D0660B.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.InputSystem.ref.dll_6AA76B5A80ECA3BA.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Mathematics.ref.dll_56687DF9F95CDA87.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Notifications.Android.ref.dll_04D3D704EA36CE0A.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Profiling.Core.ref.dll_97754A0264865EEC.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Services.Authentication.PlayerAccounts.ref.dll_50F4EFE84410D5C2.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Services.Authentication.ref.dll_461FF71DBC3543D9.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Analytics.ref.dll_8978DFF0A763ACB8.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Environments.ref.dll_E6F5EFF277AE7B44.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Services.Core.ref.dll_14B3D3EA4B41B970.mvfrm
@@ -67,4 +73,4 @@ Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestModule.dll_7D9FAADB31AE0
 Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_B93A61035EBA5276.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_98D1B28D823F37D2.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_CB9075920B798530.mvfrm
-Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_47C7C3C72B88E682.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_5007B34F300CA642.mvfrm

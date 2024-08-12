@@ -285,12 +285,12 @@
 -r:"/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll"
--r:"/Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
--r:"/Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"/Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll"
+-r:"/Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.Services.Core.Internal.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.services.core@1.4.0/Runtime/Environments/Internal/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.services.core@1.4.0/Runtime/Environments/Internal/Environments.cs"
+"Library/PackageCache/com.unity.services.core@1.13.0/Runtime/Environments/Internal/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.services.core@1.13.0/Runtime/Environments/Internal/Environments.cs"
 -langversion:9.0
 
 /deterministic

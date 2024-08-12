@@ -708,8 +708,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_GetTouch_Injected_m5779DCAC4D6055BF7641FE4862B7A7AE383BD44F (int32_t ___index0, Touch_t03E51455ED508492B3F278903A0114FA0E87B417* ___ret1, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Input::GetKeyInt(UnityEngine.KeyCode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyInt_m0F87DE11F4454B68013997B42EDF48F62017AAE7 (int32_t ___key0, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.Input::GetKeyDownString(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDownString_m8B9B7317DFBE41B879303E56EE198EEB240928F9 (String_t* ___name0, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.Input::GetKeyDownInt(UnityEngine.KeyCode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDownInt_mC1E7FE249B6CAEE7CC24EFBD783565A45251A284 (int32_t ___key0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Input::get_mousePosition_Injected(UnityEngine.Vector3&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_get_mousePosition_Injected_mCBD97B0298BAC155AA7E987E29857142A13D2041 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___ret0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Input::get_mouseScrollDelta_Injected(UnityEngine.Vector2&)
@@ -1299,14 +1299,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyInt_m0F87DE11F4454B68013997B
 	bool icallRetVal = _il2cpp_icall_func(___key0);
 	return icallRetVal;
 }
-// System.Boolean UnityEngine.Input::GetKeyDownString(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDownString_m8B9B7317DFBE41B879303E56EE198EEB240928F9 (String_t* ___name0, const RuntimeMethod* method) 
+// System.Boolean UnityEngine.Input::GetKeyDownInt(UnityEngine.KeyCode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDownInt_mC1E7FE249B6CAEE7CC24EFBD783565A45251A284 (int32_t ___key0, const RuntimeMethod* method) 
 {
-	typedef bool (*Input_GetKeyDownString_m8B9B7317DFBE41B879303E56EE198EEB240928F9_ftn) (String_t*);
-	static Input_GetKeyDownString_m8B9B7317DFBE41B879303E56EE198EEB240928F9_ftn _il2cpp_icall_func;
+	typedef bool (*Input_GetKeyDownInt_mC1E7FE249B6CAEE7CC24EFBD783565A45251A284_ftn) (int32_t);
+	static Input_GetKeyDownInt_mC1E7FE249B6CAEE7CC24EFBD783565A45251A284_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Input_GetKeyDownString_m8B9B7317DFBE41B879303E56EE198EEB240928F9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetKeyDownString(System.String)");
-	bool icallRetVal = _il2cpp_icall_func(___name0);
+	_il2cpp_icall_func = (Input_GetKeyDownInt_mC1E7FE249B6CAEE7CC24EFBD783565A45251A284_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetKeyDownInt(UnityEngine.KeyCode)");
+	bool icallRetVal = _il2cpp_icall_func(___key0);
 	return icallRetVal;
 }
 // System.Single UnityEngine.Input::GetAxis(System.String)
@@ -1399,14 +1399,14 @@ IL_000a:
 		return L_2;
 	}
 }
-// System.Boolean UnityEngine.Input::GetKeyDown(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDown_m4D8FE3CF83D6650C34E66A95175DC37DF2D98916 (String_t* ___name0, const RuntimeMethod* method) 
+// System.Boolean UnityEngine.Input::GetKeyDown(UnityEngine.KeyCode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDown_m0D59B7EBC3A782C9FBBF107FBCD4B72B38D993B3 (int32_t ___key0, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
-		String_t* L_0 = ___name0;
+		int32_t L_0 = ___key0;
 		bool L_1;
-		L_1 = Input_GetKeyDownString_m8B9B7317DFBE41B879303E56EE198EEB240928F9(L_0, NULL);
+		L_1 = Input_GetKeyDownInt_mC1E7FE249B6CAEE7CC24EFBD783565A45251A284(L_0, NULL);
 		V_0 = L_1;
 		goto IL_000a;
 	}
@@ -1416,6 +1416,15 @@ IL_000a:
 		bool L_2 = V_0;
 		return L_2;
 	}
+}
+// System.Void UnityEngine.Input::set_simulateMouseWithTouches(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_set_simulateMouseWithTouches_mF16D68F2DA2BC83A7FEFA116E2C9BC10F3AD38DD (bool ___value0, const RuntimeMethod* method) 
+{
+	typedef void (*Input_set_simulateMouseWithTouches_mF16D68F2DA2BC83A7FEFA116E2C9BC10F3AD38DD_ftn) (bool);
+	static Input_set_simulateMouseWithTouches_mF16D68F2DA2BC83A7FEFA116E2C9BC10F3AD38DD_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Input_set_simulateMouseWithTouches_mF16D68F2DA2BC83A7FEFA116E2C9BC10F3AD38DD_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::set_simulateMouseWithTouches(System.Boolean)");
+	_il2cpp_icall_func(___value0);
 }
 // UnityEngine.Vector3 UnityEngine.Input::get_mousePosition()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Input_get_mousePosition_m2414B43222ED0C5FAB960D393964189AFD21EEAD (const RuntimeMethod* method) 
