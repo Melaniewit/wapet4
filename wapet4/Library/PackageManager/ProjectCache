@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638589336980000000
-    m_Hash: 2921666637
+      ticks: 638590787980000000
+    m_Hash: 3494427850
   m_LockFileStatus:
     m_FilePath: /Users/melaniewhite/unity project/wapet4/wapet4/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638589336980000000
-    m_Hash: 66636196
+      ticks: 638590788060000000
+    m_Hash: 343584539
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -641,12 +641,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.6
     nextVersion: 
-- packageId: com.unity.services.authentication@2.0.0
+- packageId: com.unity.services.authentication@3.3.3
   testable: 0
   isDirectDependency: 1
-  version: 2.0.0
+  version: 3.3.3
   source: 1
-  resolvedPath: /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.services.authentication@2.0.0
+  resolvedPath: /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.services.authentication@3.3.3
   assetPath: Packages/com.unity.services.authentication
   name: com.unity.services.authentication
   displayName: Authentication
@@ -710,19 +710,27 @@ m_ResolvedPackages:
     verified: 2.0.0
   dependencies:
   - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
+    version: 3.2.1
   - name: com.unity.services.core
-    version: 1.3.1
+    version: 1.13.0
   - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.ugui
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
+    version: 3.2.1
   - name: com.unity.services.core
-    version: 1.4.0
+    version: 1.13.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
     version: 1.0.0
   keywords: []
   registry:
@@ -734,13 +742,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637853947760000000
+  datePublishedTicks: 638542134730000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 1a2efa54d7c36f506ac22e88dfb68cb9f6003691
+    revision: e86f4e34afa8432d41879e433d2d43de6d1895d9
     path: 
   unityLifecycle:
     version: 2.0.0
@@ -2422,12 +2430,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.nuget.newtonsoft-json@3.0.2
+- packageId: com.unity.nuget.newtonsoft-json@3.2.1
   testable: 0
   isDirectDependency: 0
-  version: 3.0.2
+  version: 3.2.1
   source: 1
-  resolvedPath: /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2
+  resolvedPath: /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -2438,7 +2446,7 @@ m_ResolvedPackages:
   category: 
   type: library
   description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
-    synced to version 13.0.1.
+    synced to version 13.0.2.
 
 
     This package is used for advanced json serialization
@@ -2485,23 +2493,23 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637846828220000000
+  datePublishedTicks: 638186318800000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
-    revision: 8f66870a71ad3f2cdd46330b5c482dfd138ffc64
+    revision: d8e49aef8979bef617144382052ec2f479645eaf
     path: 
   unityLifecycle:
     version: 3.0.2
     nextVersion: 
-- packageId: com.unity.services.core@1.4.0
+- packageId: com.unity.services.core@1.13.0
   testable: 0
   isDirectDependency: 0
-  version: 1.4.0
+  version: 1.13.0
   source: 1
-  resolvedPath: /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.services.core@1.4.0
+  resolvedPath: /Users/melaniewhite/unity project/wapet4/wapet4/Library/PackageCache/com.unity.services.core@1.13.0
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -2510,7 +2518,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: 'This package defines common components used by multiple Game Service
     packages.
 
@@ -2575,14 +2583,14 @@ m_ResolvedPackages:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
+    version: 3.2.1
   - name: com.unity.modules.androidjni
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
+    version: 3.2.1
   - name: com.unity.modules.androidjni
     version: 1.0.0
   keywords: []
@@ -2595,13 +2603,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637871962570000000
-  documentationUrl: 
+  datePublishedTicks: 638542134710000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.13/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 92e281deb97a96f7b32464b6874de73a17c140ff
+    revision: b39fd5b596524e043554f2114f844632f592406d
     path: 
   unityLifecycle:
     version: 1.4.0
