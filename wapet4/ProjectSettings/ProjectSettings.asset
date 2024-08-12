@@ -729,6 +729,11 @@ PlayerSettings:
   vrEditorSettings: {}
   cloudServicesEnabled:
     Build: 0
+    Collab: 0
+    Game Performance: 0
+    Purchasing: 0
+    UDP: 0
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -742,10 +747,10 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 2
-  cloudProjectId: d8b06982-ad9a-413b-af76-f0fdbbc15580
+  cloudProjectId: b69a546d-c072-450a-8032-6f48b849301b
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: wapet4 2024-08-10_22-59-48
+  projectName: wapet4 (1)
   organizationId: melanie2333
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

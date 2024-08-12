@@ -221,6 +221,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 620539970}
   - {fileID: 2023780518}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -248,6 +249,82 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!1 &620539969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 620539970}
+  - component: {fileID: 620539972}
+  - component: {fileID: 620539971}
+  m_Layer: 5
+  m_Name: LogOutPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &620539970
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620539969}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 391361804}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &620539971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620539969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &620539972
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620539969}
+  m_CullTransparentMesh: 1
 --- !u!1 &1103440865
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,7 +501,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1331452160
 GameObject:
@@ -514,6 +591,69 @@ MonoBehaviour:
     type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
+--- !u!1 &1485383381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1485383384}
+  - component: {fileID: 1485383383}
+  - component: {fileID: 1485383382}
+  m_Layer: 0
+  m_Name: LoginController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1485383382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485383381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc8f1295064c4e1da1f9bcb1ca83722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loginButton: {fileID: 0}
+  userIdText: {fileID: 0}
+  userNameText: {fileID: 0}
+  loginPanel: {fileID: 0}
+  userPanel: {fileID: 0}
+  loginController: {fileID: 1485383383}
+--- !u!114 &1485383383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485383381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87c1bb4e21c9548c59439e7fb90f30d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1485383384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485383381}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1577759967
 GameObject:
   m_ObjectHideFlags: 0
@@ -615,18 +755,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1609086648 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7828901192306273475, guid: 158f1755882514a9cb56f45b522dc873,
-    type: 3}
-  m_PrefabInstance: {fileID: 3428361112463488763}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1738984489
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,6 +1243,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8602664588254428196, guid: 158f1755882514a9cb56f45b522dc873,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8602664588254428196, guid: 158f1755882514a9cb56f45b522dc873,
+        type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
       objectReference: {fileID: 0}
@@ -1205,121 +1338,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 158f1755882514a9cb56f45b522dc873, type: 3}
---- !u!1001 &3729672234268852745
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 814439723624599299, guid: 831c255ca6e664291b0299a49230b0ba,
-        type: 3}
-      propertyPath: m_Name
-      value: LoginController
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834486499626653940, guid: 831c255ca6e664291b0299a49230b0ba,
-        type: 3}
-      propertyPath: loginButton
-      value: 
-      objectReference: {fileID: 1609086648}
-    - target: {fileID: 1834486499626653940, guid: 831c255ca6e664291b0299a49230b0ba,
-        type: 3}
-      propertyPath: signOutButton
-      value: 
-      objectReference: {fileID: 8297395590143732716, guid: 032d1f1f0eccb44a199994779dad7c7f,
-        type: 3}
-    - target: {fileID: 3555454980125914270, guid: 831c255ca6e664291b0299a49230b0ba,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555454980125914270, guid: 831c255ca6e664291b0299a49230b0ba,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555454980125914270, guid: 831c255ca6e664291b0299a49230b0ba,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555454980125914270, guid: 831c255ca6e664291b0299a49230b0ba,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555454980125914270, guid: 831c255ca6e664291b0299a49230b0ba,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555454980125914270, guid: 831c255ca6e664291b0299a49230b0ba,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555454980125914270, guid: 831c255ca6e664291b0299a49230b0ba,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555454980125914270, guid: 831c255ca6e664291b0299a49230b0ba,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555454980125914270, guid: 831c255ca6e664291b0299a49230b0ba,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555454980125914270, guid: 831c255ca6e664291b0299a49230b0ba,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1834486499626653940, guid: 831c255ca6e664291b0299a49230b0ba, type: 3}
-  m_SourcePrefab: {fileID: 100100000, guid: 831c255ca6e664291b0299a49230b0ba, type: 3}
---- !u!1 &3729672234268852746 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 814439723624599299, guid: 831c255ca6e664291b0299a49230b0ba,
-    type: 3}
-  m_PrefabInstance: {fileID: 3729672234268852745}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3729672234268852747 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7000139436121129482, guid: 831c255ca6e664291b0299a49230b0ba,
-    type: 3}
-  m_PrefabInstance: {fileID: 3729672234268852745}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729672234268852746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db5adccaebbf64ea79f96c3064758b20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &3729672234268852748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729672234268852746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3acc1bdee4ba94b17973b8429cf1588e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loginButton: {fileID: 1609086648}
-  signOutButton: {fileID: 8297395590143732716, guid: 032d1f1f0eccb44a199994779dad7c7f,
-    type: 3}
-  loginPanelPrefab: {fileID: 8488633558974556321, guid: 158f1755882514a9cb56f45b522dc873,
-    type: 3}
-  userPanelPrefab: {fileID: 4943088283497953766, guid: 8f32fc88440004947b1fcf7d9f0188aa,
-    type: 3}
-  signInPopUpPrefab: {fileID: 5702472849996828160, guid: 050f7ba219724479fa86d5bee4941337,
-    type: 3}
-  signOutPopUpPrefab: {fileID: 3286670235022943702, guid: d5875fcef684644d9b300c6c158577d3,
-    type: 3}
-  loginController: {fileID: 3729672234268852747}
