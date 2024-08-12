@@ -2,6 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ARFeatheredPlaneMeshVisualizer
+    - BackToOption1ChooseButton
+    - Demo
     - PlaceObject
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
@@ -63,6 +65,19 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.SpatialTracking.dll:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.Dropdown
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
     UnityEngine.XR.MagicLeap.dll:
     - UnityEngine.XR.MagicLeap.MagicLeapSettings
   serializedClasses:
@@ -80,14 +95,34 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.Dropdown/DropdownEvent
+    - UnityEngine.UI.Dropdown/OptionDataList
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
     UnityEngine.XR.MagicLeap:
     - UnityEngine.XR.MagicLeap.MagicLeapSettings/GLCache
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: BackToOption1ChooseButton
+    methodName: OnBackToMenuButtonClicked
   sceneClasses:
     Assets/Scenes/App Desgin/BlankAR.unity:
     - Class: 1
@@ -127,6 +162,10 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1678}
+    - Class: 114
+      Script: {instanceID: 1680}
+    - Class: 114
       Script: {instanceID: 1720}
     - Class: 114
       Script: {instanceID: 1886}
@@ -134,6 +173,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2684}
     - Class: 114
       Script: {instanceID: 3042}
+    - Class: 114
+      Script: {instanceID: 3414}
+    - Class: 114
+      Script: {instanceID: 3756}
+    - Class: 114
+      Script: {instanceID: 4222}
     - Class: 114
       Script: {instanceID: 4504}
     - Class: 114
@@ -145,23 +190,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5402}
     - Class: 114
+      Script: {instanceID: 5508}
+    - Class: 114
       Script: {instanceID: 5876}
+    - Class: 114
+      Script: {instanceID: 5962}
     - Class: 114
       Script: {instanceID: 6320}
     - Class: 114
       Script: {instanceID: 7502}
     - Class: 114
+      Script: {instanceID: 7596}
+    - Class: 114
+      Script: {instanceID: 7908}
+    - Class: 114
+      Script: {instanceID: 8394}
+    - Class: 114
       Script: {instanceID: 8438}
+    - Class: 114
+      Script: {instanceID: 9190}
+    - Class: 114
+      Script: {instanceID: 9208}
     - Class: 114
       Script: {instanceID: 9674}
     - Class: 114
       Script: {instanceID: 9940}
     - Class: 114
+      Script: {instanceID: 10486}
+    - Class: 114
       Script: {instanceID: 10888}
+    - Class: 114
+      Script: {instanceID: 10980}
     - Class: 114
       Script: {instanceID: 11578}
     - Class: 114
       Script: {instanceID: 11786}
+    - Class: 114
+      Script: {instanceID: 28584}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -175,6 +240,14 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 205
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
