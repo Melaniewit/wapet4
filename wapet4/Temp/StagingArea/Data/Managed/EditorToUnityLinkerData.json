@@ -4,7 +4,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "ARFeatheredPlaneMeshVisualizer",
+            "fullManagedTypeName": "BackToOption1ChooseButton",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -23,12 +23,19 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Demo",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "EditorExtension",
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -37,7 +44,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -53,7 +60,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -62,7 +69,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -78,15 +85,8 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "PlaceObject",
-            "moduleName": "",
-            "usedInScenes": []
         },
         {
             "managedAssemblyName": "",
@@ -157,7 +157,7 @@
             "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -187,7 +187,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -238,7 +238,7 @@
             "fullManagedTypeName": "UnityEngine.AnimationClip",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -247,7 +247,25 @@
             "fullManagedTypeName": "UnityEngine.Animator",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioBehaviour",
+            "fullManagedTypeName": "UnityEngine.AudioBehaviour",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioListener",
+            "fullManagedTypeName": "UnityEngine.AudioListener",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -256,7 +274,7 @@
             "fullManagedTypeName": "UnityEngine.Avatar",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -265,7 +283,7 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -274,7 +292,25 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Canvas",
+            "fullManagedTypeName": "UnityEngine.Canvas",
+            "moduleName": "UI",
+            "usedInScenes": [
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CanvasRenderer",
+            "fullManagedTypeName": "UnityEngine.CanvasRenderer",
+            "moduleName": "UI",
+            "usedInScenes": [
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -283,7 +319,7 @@
             "fullManagedTypeName": "UnityEngine.CapsuleCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -292,7 +328,7 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -301,17 +337,22 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Cubemap",
-            "fullManagedTypeName": "UnityEngine.Cubemap",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
-            ]
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.EventSystems.EventSystem",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.EventSystems.StandaloneInputModule",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -319,7 +360,7 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -328,7 +369,7 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -358,7 +399,7 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -367,7 +408,7 @@
             "fullManagedTypeName": "UnityEngine.LightingSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -376,7 +417,16 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "LightProbes",
+            "fullManagedTypeName": "UnityEngine.LightProbes",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -385,7 +435,7 @@
             "fullManagedTypeName": "UnityEngine.LODGroup",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -394,7 +444,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -403,7 +453,7 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -412,7 +462,7 @@
             "fullManagedTypeName": "UnityEngine.MeshCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -421,7 +471,7 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -430,7 +480,7 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -439,7 +489,7 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -448,7 +498,7 @@
             "fullManagedTypeName": "UnityEngine.Motion",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -457,7 +507,7 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -469,11 +519,20 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RectTransform",
+            "fullManagedTypeName": "UnityEngine.RectTransform",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Renderer",
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -489,7 +548,7 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -498,7 +557,7 @@
             "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -507,7 +566,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -516,15 +575,17 @@
             "fullManagedTypeName": "UnityEngine.SkinnedMeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
-            "managedAssemblyName": "UnityEngine.SpatialTracking.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.SpatialTracking.TrackedPoseDriver",
-            "moduleName": "",
-            "usedInScenes": []
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Sprite",
+            "fullManagedTypeName": "UnityEngine.Sprite",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
+            ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -532,7 +593,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -541,7 +602,7 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -550,7 +611,7 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
         },
         {
@@ -559,83 +620,83 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity"
+                "Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Button",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.CanvasScaler",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Dropdown",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.GraphicRaycaster",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Image",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Mask",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Scrollbar",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.ScrollRect",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Text",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Toggle",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Unity.XR.ARCore.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.ARCore.ARCoreLoader",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARCameraBackground",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARCameraManager",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARInputManager",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARPlane",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARPlaneManager",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARPoseDriver",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARRaycastManager",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARSession",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARSessionOrigin",
             "moduleName": "",
             "usedInScenes": []
         },

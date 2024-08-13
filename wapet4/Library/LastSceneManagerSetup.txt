@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/App Desgin/BlankAR.unity
+- path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
