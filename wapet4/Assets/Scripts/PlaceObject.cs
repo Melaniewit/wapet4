@@ -34,7 +34,6 @@ public class PlaceObject : MonoBehaviour
         EnhancedTouch.EnhancedTouchSupport.Disable();
         EnhancedTouch.Touch.onFingerDown -= FingerDown;
     }
-
     private void FingerDown(EnhancedTouch.Finger finger)
     {
         if (finger.index != 0) return;
@@ -43,25 +42,44 @@ public class PlaceObject : MonoBehaviour
         {
             Pose pose = hits[0].pose;
 
+            Debug.Log("Raycast hit at position: " + pose.position);
+
             if (spawnedObject == null)
             {
-                // Instantiate only if there's no object spawned yet
                 spawnedObject = Instantiate(prefab, pose.position, pose.rotation);
+                Debug.Log("Instantiated new object at: " + pose.position);
+
+                Demo demoScript = FindObjectOfType<Demo>();
+                if (demoScript != null)
+                {
+                    demoScript.UpdateModelReference(spawnedObject);
+                    Debug.Log("Updated Demo reference to new model");
+                }
             }
             else
             {
-                // Move the existing object instead of instantiating a new one
                 spawnedObject.transform.position = pose.position;
                 spawnedObject.transform.rotation = pose.rotation;
+                Debug.Log("Moved existing object to: " + pose.position);
+
+                Demo demoScript = FindObjectOfType<Demo>();
+                if (demoScript != null)
+                {
+                    demoScript.UpdateModelReference(spawnedObject);
+                    Debug.Log("Updated Demo reference to moved model");
+                }
             }
 
-            // Adjust rotation to face the camera if the plane is horizontal
             if (aRPlaneManager.GetPlane(hits[0].trackableId).alignment == PlaneAlignment.HorizontalUp)
             {
                 Vector3 cameraPosition = Camera.main.transform.position;
                 Vector3 direction = cameraPosition - spawnedObject.transform.position;
                 spawnedObject.transform.rotation = Quaternion.LookRotation(direction);
+                Debug.Log("Adjusted object orientation to face the camera");
             }
         }
     }
+
+
+
 }

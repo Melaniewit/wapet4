@@ -6,6 +6,13 @@ using UnityEngine.InputSystem;  // Add this to use the new Input System
 
 public class Demo : MonoBehaviour
 {
+    public GameObject currentModel; // 新增：用于引用当前模型
+
+    public void UpdateModelReference(GameObject newModel)
+    {
+        currentModel = newModel;
+        Debug.Log("Current model updated to: " + currentModel.name);
+    }
 
     private GameObject[] animals;
     private int animalIndex;
@@ -99,7 +106,7 @@ public class Demo : MonoBehaviour
     private Keyboard keyboard; // For input checking
     void Start()
     {
-        animal_parent = GameObject.Find("Animals").transform;
+
         Transform canvas = GameObject.Find("Canvas").transform;
         dropdownAnimal = canvas.Find("Animal").Find("Dropdown").GetComponent<Dropdown>();
         dropdownAnimation = canvas.Find("Animation").Find("Dropdown").GetComponent<Dropdown>();
@@ -155,35 +162,46 @@ public class Demo : MonoBehaviour
 
     public void NextAnimal()
     {
-        if (dropdownAnimal.value >= dropdownAnimal.options.Count - 1)
-            dropdownAnimal.value = 0;
-        else
-            dropdownAnimal.value++;
+        Debug.Log("Attempting to switch animal. Current model: " + (currentModel != null ? currentModel.name : "None"));
 
-        ChangeAnimal();
+        animalIndex = (animalIndex + 1) % animals.Length;
+        UpdateCurrentModel(animalIndex);
+        Debug.Log("NextAnimal: Switched to animal index: " + animalIndex);
     }
 
     public void PrevAnimal()
     {
-        if (dropdownAnimal.value <= 0)
-            dropdownAnimal.value = dropdownAnimal.options.Count - 1;
-        else
-            dropdownAnimal.value--;
+        Debug.Log("Attempting to switch animal. Current model: " + (currentModel != null ? currentModel.name : "None"));
 
-        ChangeAnimal();
+        animalIndex = (animalIndex - 1 + animals.Length) % animals.Length;
+        UpdateCurrentModel(animalIndex);
+        Debug.Log("PrevAnimal: Switched to animal index: " + animalIndex);
+    }
+
+    private void UpdateCurrentModel(int index)
+    {
+        if (currentModel != null)
+        {
+            Destroy(currentModel); // 销毁旧的模型实例
+            Debug.Log("Destroyed previous model instance.");
+        }
+
+        // 通过索引实例化新模型
+        currentModel = Instantiate(animals[index], animal_parent.position, Quaternion.identity);
+        Debug.Log("Instantiated new model: " + currentModel.name);
+
+        // 更新动画和形状键
+        UpdateAnimationDropdown();
+        ChangeAnimation();
+        ChangeShapekey();
     }
 
     public void ChangeAnimal()
     {
-        animals[animalIndex].SetActive(false);
-        animals[dropdownAnimal.value].SetActive(true);
-        animalIndex = dropdownAnimal.value;
-
-        UpdateAnimationDropdown(); //changed!!
-
-        ChangeAnimation();
-        ChangeShapekey();
+        // 使用 dropdown 的值更新 currentModel
+        UpdateCurrentModel(dropdownAnimal.value);
     }
+
 
     void UpdateAnimationDropdown()
     { //changed!!
@@ -204,44 +222,61 @@ public class Demo : MonoBehaviour
 
     public void NextAnimation()
     {
+        Debug.Log("NextAnimation button clicked.");
         if (dropdownAnimation.value >= dropdownAnimation.options.Count - 1)
             dropdownAnimation.value = 0;
         else
             dropdownAnimation.value++;
 
         ChangeAnimation();
+        Debug.Log("NextAnimation: Switched to animation index: " + dropdownAnimation.value);
     }
 
     public void PrevAnimation()
     {
+        Debug.Log("PrevAnimation button clicked.");
         if (dropdownAnimation.value <= 0)
             dropdownAnimation.value = dropdownAnimation.options.Count - 1;
         else
             dropdownAnimation.value--;
 
         ChangeAnimation();
+        Debug.Log("PrevAnimation: Switched to animation index: " + dropdownAnimation.value);
     }
-
     public void ChangeAnimation()
     {
-        Animator animator = animals[dropdownAnimal.value].GetComponent<Animator>();
+        if (currentModel == null)
+        {
+            Debug.LogWarning("ChangeAnimation: currentModel is null.");
+            return;
+        }
+
+        Animator animator = currentModel.GetComponent<Animator>();
         if (animator != null)
         {
-            string animName = animalAnimationMap[animals[dropdownAnimal.value].name][dropdownAnimation.value]; //changed!!
+            Debug.Log("Animator component found on current model: " + currentModel.name);
+            string animName = animalAnimationMap[currentModel.name][dropdownAnimation.value];
 
-            // Set the animation speed
             if (animationSpeedMap.ContainsKey(animName))
             {
                 animator.speed = animationSpeedMap[animName];
             }
             else
             {
-                animator.speed = 1.0f; // Default speed
+                animator.speed = 1.0f;
             }
 
-            animator.Play(animName); // Play using original name
+            animator.Play(animName);
+            Debug.Log("Playing animation: " + animName + " on model: " + currentModel.name);
+        }
+        else
+        {
+            Debug.LogWarning("ChangeAnimation: Animator component not found on currentModel.");
         }
     }
+
+
+
 
     public void NextShapekey()
     {
@@ -265,14 +300,25 @@ public class Demo : MonoBehaviour
 
     public void ChangeShapekey()
     {
-        Animator animator = animals[dropdownAnimal.value].GetComponent<Animator>();
+        if (currentModel == null)
+        {
+            Debug.LogWarning("ChangeShapekey: currentModel is null.");
+            return;
+        }
+
+        Animator animator = currentModel.GetComponent<Animator>();
         if (animator != null)
         {
-            string shapeKeyName = shapekeyList[dropdownShapekey.value]; // Use original name
-
-            animator.Play(shapeKeyName); // Play using original name
+            string shapeKeyName = shapekeyList[dropdownShapekey.value];
+            animator.Play(shapeKeyName);
+            Debug.Log("Playing shapekey: " + shapeKeyName + " on model: " + currentModel.name);
+        }
+        else
+        {
+            Debug.LogWarning("ChangeShapekey: Animator component not found on currentModel.");
         }
     }
+
 
     public void GoToWebsite(string URL)
     {

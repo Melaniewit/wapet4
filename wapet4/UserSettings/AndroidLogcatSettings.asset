@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "9889db454b52494254",
         "name": "com.DefaultCompany.wapet4",
-        "processId": 17951,
+        "processId": 13552,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,19 +11,61 @@
         {
             "deviceId": "9889db454b52494254",
             "name": "com.DefaultCompany.wapet4",
-            "processId": 24721,
+            "processId": 26582,
             "exited": true
         },
         {
             "deviceId": "9889db454b52494254",
             "name": "com.DefaultCompany.wapet4",
-            "processId": 26582,
+            "processId": 17951,
+            "exited": true
+        },
+        {
+            "deviceId": "9889db454b52494254",
+            "name": "com.DefaultCompany.wapet4",
+            "processId": 13242,
+            "exited": true
+        },
+        {
+            "deviceId": "9889db454b52494254",
+            "name": "com.DefaultCompany.wapet4",
+            "processId": 14638,
+            "exited": true
+        },
+        {
+            "deviceId": "9889db454b52494254",
+            "name": "com.DefaultCompany.wapet4",
+            "processId": 17444,
+            "exited": false
+        },
+        {
+            "deviceId": "9889db454b52494254",
+            "name": "com.sec.android.app.launcher",
+            "processId": 5311,
             "exited": false
         },
         {
             "deviceId": "9889db454b52494254",
             "name": "com.DefaultCompany.wapet4",
-            "processId": 17951,
+            "processId": 18533,
+            "exited": false
+        },
+        {
+            "deviceId": "9889db454b52494254",
+            "name": "com.DefaultCompany.wapet4",
+            "processId": 8962,
+            "exited": false
+        },
+        {
+            "deviceId": "9889db454b52494254",
+            "name": "com.DefaultCompany.wapet4",
+            "processId": 11907,
+            "exited": false
+        },
+        {
+            "deviceId": "9889db454b52494254",
+            "name": "com.DefaultCompany.wapet4",
+            "processId": 13552,
             "exited": false
         }
     ],
@@ -78,7 +120,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "",
+        "m_Filter": "Current model updated to:",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },
