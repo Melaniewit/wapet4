@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59258
+59580
 Successfully changed project path to: /Users/melaniewhite/unity project/wapet4/wapet4
 /Users/melaniewhite/unity project/wapet4/wapet4
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/melaniewhite/unity project/wapet4/w
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 195.00 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 239.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,268 +69,266 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56087
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001534 seconds.
+Registered in 0.001978 seconds.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 74.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 77.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.428 seconds
+- Completed reload, in  0.424 seconds
 Domain Reload Profiling:
-	ReloadAssembly (428ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (424ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (283ms)
-			LoadAssemblies (83ms)
+		EndReloadAssembly (294ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (68ms)
+			SetupTypeCache (72ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (170ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (174ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
+				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
+				RefreshPlugins (77ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (46ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				ProcessInitializeOnLoadAttributes (45ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006924 seconds.
+Registered in 0.009667 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0x158008000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbol file data-0x16902fc00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a01ea00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file data-0x16991ee00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Notifications.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13f095600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Notifications.dll
+Symbol file data-0x2905a0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x2a8080000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file data-0x148678000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x2a80e8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0x16902fc00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.007.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13f022800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.007.dll
+Symbol file data-0x1698eb600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13f03a600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+Symbol file data-0x16991ee00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13f013400 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0x169038600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e0bd800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+Symbol file data-0x140060000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151050000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file data-0x1329e3200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13f022800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
+Symbol file data-0x1400d8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x150fb8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file data-0x13344b800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Authentication.PlayerAccounts.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e185a00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Authentication.PlayerAccounts.dll
+Symbol file data-0x169038600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e18ca00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0x16903d400 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e18a800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
+Symbol file data-0x169925000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13f013400 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll
+Symbol file data-0x169925200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e19b800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0x1486b8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x158090000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file data-0x290090000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151208000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file data-0x2905a0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1512a8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file data-0x1486b8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151208000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+Symbol file data-0x1341a9200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e194a00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+Symbol file data-0x148068000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151218000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file data-0x16991ee00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Notifications.iOS.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13df71800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Notifications.iOS.dll
+Symbol file data-0x1348f5200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e19b800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+Symbol file data-0x169047600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13f095600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file data-0x169924e00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.InteractionSubsystems.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13f013400 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.InteractionSubsystems.dll
+Symbol file data-0x2b0008000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Authentication.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x2a8158000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Authentication.dll
+Symbol file data-0x133443800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13f095600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+Symbol file data-0x138678000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151208000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.Editor.dll
+Symbol file data-0x1341a9200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e1a0200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+Symbol file data-0x13344b800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e1a4e00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file data-0x132c66a00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e1a8200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+Symbol file data-0x1340cde00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e1a9800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
+Symbol file data-0x132c8aa00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13df71800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.Management.dll
+Symbol file data-0x1329e3200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e1b3a00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file data-0x1348f9c00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e1b9a00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
+Symbol file data-0x132c66a00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e1a9800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+Symbol file data-0x169923600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12dd89000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file data-0x290090000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x2a8168000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
+Symbol file data-0x1348ffa00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e1b9a00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.dll
+Symbol file data-0x298988000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1580a0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.dll
+Symbol file data-0x169924e00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Notifications.Android.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13df80600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Notifications.Android.dll
+Symbol file data-0x134908c00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e1be800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
+Symbol file data-0x298988000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARCore.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1580a0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARCore.dll
+Symbol file data-0x16993d000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Tutorials.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e1be800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Tutorials.Core.dll
+Symbol file data-0x2900a8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151218000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0x298988000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARKit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151208000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARKit.dll
+Symbol file data-0x169941200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Authentication.PlayerAccounts.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13df71800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Authentication.PlayerAccounts.Editor.dll
+Symbol file data-0x133453800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.007.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13f095600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.007.dll
+Symbol file data-0x2900d0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x2a8158000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file data-0x169941200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13f09ba00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file data-0x16994a200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Profiling.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e1c6600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Profiling.Core.dll
+Symbol file data-0x298a20000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151218000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file data-0x2900d0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151208000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+Symbol file data-0x2900a8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151230000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file data-0x134909400 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13df71800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.Editor.dll
+Symbol file data-0x128640000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1580c8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file data-0x148108000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1513f0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0x169058800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Extension.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13df86200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Extension.dll
+Symbol file data-0x1340d3c00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MockRuntime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13df8be00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file data-0x134909400 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e1c6600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+Symbol file data-0x169061600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.UI.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e1cd200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.UI.Editor.dll
+Symbol file data-0x298ab8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151460000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file data-0x298af0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1581d8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file data-0x1340aae00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e1cd200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file data-0x1400f8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Tutorials.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x2a81f0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Tutorials.Core.Editor.dll
+Symbol file data-0x13345be00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13df86200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.dll
+Symbol file data-0x2b8008000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x2a82b0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file data-0x138678000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEngine.XR.MagicLeap.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x2a8158000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEngine.XR.MagicLeap.dll
+Symbol file data-0x298b40000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x158300000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Mathematics.dll
+Symbol file data-0x128738000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1580a0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file data-0x13344d000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e1d0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Editor.dll
+Symbol file data-0x132c8aa00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13f0a1200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+Symbol file data-0x13490e000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Authentication.Editor.Shared.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13df86200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Authentication.Editor.Shared.dll
+Symbol file data-0x128738000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEditor.XR.MagicLeap.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1580a0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEditor.XR.MagicLeap.dll
+Symbol file data-0x13344d000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e1d5e00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-0x169066e00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13df8ce00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0x298988000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Authentication.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1580a0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Authentication.Editor.dll
+Symbol file data-0x148080000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151208000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.dll
+Symbol file data-0x169061c00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13df8e000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+Symbol file data-0x298ad0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151438000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file data-0x133453800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13df92400 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+Symbol file data-0x298ad0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Environments.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x2a81f0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Environments.Editor.dll
+Symbol file data-0x148108000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151530000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file data-0x16906c600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12dd91c00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-0x1486e0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1580a0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.dll
+Symbol file data-0x134911a00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13df9cc00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+Symbol file data-0x1486e0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151208000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0x1340aae00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13df99e00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file data-0x16906c600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.Profiler.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e1d8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.Profiler.Editor.dll
+Symbol file data-0x13491d400 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13f0a7e00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file data-0x169071a00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13dfa4600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file data-0x298ad0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x158300000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13f0b5a00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+Symbol file data-0x16906c600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 70.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 75.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.571 seconds
+- Completed reload, in  1.167 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1572ms)
-		BeginReloadAssembly (159ms)
+	ReloadAssembly (1169ms)
+		BeginReloadAssembly (219ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (120ms)
-		EndReloadAssembly (1325ms)
-			LoadAssemblies (424ms)
+			CreateAndSetChildDomain (148ms)
+		EndReloadAssembly (880ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (381ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (446ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (490ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (286ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -339,13 +337,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.21 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5292 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (53.2 KB). Loaded Objects now: 5719.
-Memory consumption went from 167.2 MB to 167.2 MB.
-Total: 3.234125 ms (FindLiveObjects: 0.182791 ms CreateObjectMapping: 0.084625 ms MarkObjects: 2.873166 ms  DeleteObjects: 0.093000 ms)
+Unloading 66 unused Assets / (42.9 KB). Loaded Objects now: 5720.
+Memory consumption went from 167.3 MB to 167.2 MB.
+Total: 3.229000 ms (FindLiveObjects: 0.167833 ms CreateObjectMapping: 0.089417 ms MarkObjects: 2.883000 ms  DeleteObjects: 0.088333 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -359,279 +357,37 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 678746.626361 seconds.
-  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1
-  artifactKey: Guid(a6774d450f6fc4baea7a0417cb1694da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1 using Guid(a6774d450f6fc4baea7a0417cb1694da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0343fd16190dfb056e0bc029cc65bb69') in 0.005812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo
-  artifactKey: Guid(3b74d58ffdedbde43ae2b7868f3d5655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo using Guid(3b74d58ffdedbde43ae2b7868f3d5655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f8f6cc61d65e8a5d813535204397f3') in 0.000348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.988765 seconds.
+  Time since last request: 684364.487229 seconds.
   path: 
-  artifactKey: Guid(5c33359d6aa274b8f838a8c1265412d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(5c33359d6aa274b8f838a8c1265412d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000048 seconds  code(3) message(Unknown asset with GUID '5c33359d6aa274b8f838a8c1265412d7')
-  ERROR: Unknown asset with GUID '5c33359d6aa274b8f838a8c1265412d7'
+  artifactKey: Guid(f02951ad5fa9a492288d083bd25a8897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(f02951ad5fa9a492288d083bd25a8897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000111 seconds  code(3) message(Unknown asset with GUID 'f02951ad5fa9a492288d083bd25a8897')
+  ERROR: Unknown asset with GUID 'f02951ad5fa9a492288d083bd25a8897'
 ========================================================================
 Received Import Request.
-  Time since last request: 6.604525 seconds.
+  Time since last request: 157.744784 seconds.
   path: 
-  artifactKey: Guid(5c33359d6aa274b8f838a8c1265412d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(5c33359d6aa274b8f838a8c1265412d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000048 seconds  code(3) message(Unknown asset with GUID '5c33359d6aa274b8f838a8c1265412d7')
-  ERROR: Unknown asset with GUID '5c33359d6aa274b8f838a8c1265412d7'
+  artifactKey: Guid(ce9de61c280004e0494ac777720da702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(ce9de61c280004e0494ac777720da702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001240 seconds  code(3) message(Unknown asset with GUID 'ce9de61c280004e0494ac777720da702')
+  ERROR: Unknown asset with GUID 'ce9de61c280004e0494ac777720da702'
 ========================================================================
 Received Import Request.
-  Time since last request: 25.952706 seconds.
-  path: Assets/SwitchToDemoScene.cs
-  artifactKey: Guid(fd8857fa6c2664042a2eaaa20d0fd8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwitchToDemoScene.cs using Guid(fd8857fa6c2664042a2eaaa20d0fd8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.072953 seconds  code(4) message(Build asset version error: assets/switchtodemoscene.cs in SourceAssetDB has modification time of '2024-08-20T10:05:27Z' while content on disk has modification time of '2024-08-20T11:39:48Z')
-  ERROR: Build asset version error: assets/switchtodemoscene.cs in SourceAssetDB has modification time of '2024-08-20T10:05:27Z' while content on disk has modification time of '2024-08-20T11:39:48Z'
+  Time since last request: 457.460564 seconds.
+  path: 
+  artifactKey: Guid(05393bbcdb0cd4cda8c8555accbad6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(05393bbcdb0cd4cda8c8555accbad6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000088 seconds  code(3) message(Unknown asset with GUID '05393bbcdb0cd4cda8c8555accbad6d8')
+  ERROR: Unknown asset with GUID '05393bbcdb0cd4cda8c8555accbad6d8'
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002482 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x29fdab000 may have been prematurely finalized
-Symbol file data-0x12d96c600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d96c600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Notifications.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120760000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1207c8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12ddac000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.007.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d96e000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d97d800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d96e000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120610000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d97d800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1207c8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d97d800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Authentication.PlayerAccounts.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d985000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d989e00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a085000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d996000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120840000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120850000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120840000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1207c8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d985000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120898000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d99d200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Notifications.iOS.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d9a3200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d9a3a00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d9a3a00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.InteractionSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1208c8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Authentication.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x29e81ac00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x2a8210000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a08b400 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x29d6d7000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x29e80d200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x29e812000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x29e012200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x29e017200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a089c00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a08a600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a08bc00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x148418000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x29d758800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130c98000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d9aaa00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Notifications.Android.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d9b5600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130c98000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARCore.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a08bc00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Tutorials.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x148488000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130c98000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARKit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x29d758800 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Authentication.PlayerAccounts.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d9aaa00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.007.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1208b0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d9b6600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d9bac00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Profiling.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x2a8220000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1208b0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130d40000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d9bb600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1484b0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120940000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x29e01c400 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Extension.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a08bc00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MockRuntime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12d9d0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a099000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.UI.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1484f0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x148488000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a08bc00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1487d0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Tutorials.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a099000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x148488000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x148518000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEngine.XR.MagicLeap.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x148968000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x148518000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a09be00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a0aa200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a0aa200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Authentication.Editor.Shared.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x148518000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEditor.XR.MagicLeap.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a0b0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a0b6000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x148518000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Authentication.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x148518000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a0b6000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x148990000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a0b8c00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x148990000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Environments.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x148aa8000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a0bfe00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x148990000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a0c5a00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x148990000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a0c5a00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a0cd600 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.AdaptivePerformance.Profiler.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a0d2200 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a0d8e00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1489d0000 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13a0d8e00 doesn't match image /Users/melaniewhite/unity project/wapet4/wapet4/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.805 seconds
-Domain Reload Profiling:
-	ReloadAssembly (806ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (626ms)
-			LoadAssemblies (62ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (183ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (338ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (264ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.10 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5254 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 57 unused Assets / (33.7 KB). Loaded Objects now: 5723.
-Memory consumption went from 254.4 MB to 254.3 MB.
-Total: 3.225833 ms (FindLiveObjects: 0.171125 ms CreateObjectMapping: 0.086000 ms MarkObjects: 2.925166 ms  DeleteObjects: 0.043292 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 223.036113 seconds.
+  path: 
+  artifactKey: Guid(05393bbcdb0cd4cda8c8555accbad6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(05393bbcdb0cd4cda8c8555accbad6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000059 seconds  code(3) message(Unknown asset with GUID '05393bbcdb0cd4cda8c8555accbad6d8')
+  ERROR: Unknown asset with GUID '05393bbcdb0cd4cda8c8555accbad6d8'
+========================================================================
+Received Import Request.
+  Time since last request: 135.480017 seconds.
+  path: 
+  artifactKey: Guid(2726f98e14b0443d5b80299d675bdfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(2726f98e14b0443d5b80299d675bdfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000060 seconds  code(3) message(Unknown asset with GUID '2726f98e14b0443d5b80299d675bdfce')
+  ERROR: Unknown asset with GUID '2726f98e14b0443d5b80299d675bdfce'
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
