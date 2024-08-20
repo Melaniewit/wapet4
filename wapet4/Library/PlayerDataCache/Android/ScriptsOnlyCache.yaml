@@ -7,10 +7,11 @@ ScriptsOnlyBuild:
     - PlaceObject
     - SwitchToDemoScene
     Unity.InputSystem.dll:
-    - UnityEngine.InputSystem.EnhancedTouch.TouchSimulation
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.Services.Authentication.PlayerAccounts.dll:
@@ -553,7 +554,7 @@ ScriptsOnlyBuild:
     className: ARParticipantManager
   - hash:
       serializedVersion: 2
-      Hash: 220bd265f54cc4cee8f1539ad2b2c64a
+      Hash: 49ded131c5d2751014b2b35e4d6d8c53
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlaceObject
@@ -1375,7 +1376,7 @@ ScriptsOnlyBuild:
     className: SceneObjectGuid
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: bc7a7b645742d17b2d30ec8fa9f25916
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SwitchToDemoScene

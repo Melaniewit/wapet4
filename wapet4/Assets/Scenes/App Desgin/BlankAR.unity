@@ -817,6 +817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8857fa6c2664042a2eaaa20d0fd8a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  placeObjectScript: {fileID: 0}
 --- !u!4 &1556649342
 Transform:
   m_ObjectHideFlags: 0
@@ -977,6 +978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3463497062904160881, guid: f877aabfba378470daa2dc5415832cf4, type: 3}
+  spawnedObject: {fileID: 0}
 --- !u!114 &1659859602
 MonoBehaviour:
   m_ObjectHideFlags: 0

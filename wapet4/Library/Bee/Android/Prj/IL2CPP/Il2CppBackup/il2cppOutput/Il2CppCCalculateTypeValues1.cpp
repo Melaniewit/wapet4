@@ -1554,6 +1554,8 @@ struct PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B;
 struct PerformanceStateTracker_tDF46D2D9CE3326E210493B3F4171DD715E6DBB43;
 // UnityEngine.Events.PersistentCallGroup
 struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
+// PlaceObject
+struct PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF;
 // UnityEngine.Plane
 struct Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C;
 // Unity.Services.Authentication.Generated.Player
@@ -34719,6 +34721,8 @@ struct SkewTextExample_t23E1D8362105119C600703D984514C02617441D1  : public MonoB
 // SwitchToDemoScene
 struct SwitchToDemoScene_tC9B1B431EA581A5268758DBA5F6AC761A766ECE1  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+	// PlaceObject SwitchToDemoScene::placeObjectScript
+	PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF* ___placeObjectScript_4;
 };
 
 // TMPro.Examples.TMP_ExampleScript_01

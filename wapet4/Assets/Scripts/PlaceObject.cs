@@ -3,8 +3,6 @@ using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 using EnhancedTouch = UnityEngine.InputSystem.EnhancedTouch;
-using UnityEngine.SceneManagement;
-
 
 [RequireComponent(typeof(ARRaycastManager), typeof(ARPlaneManager))]
 public class PlaceObject : MonoBehaviour
@@ -14,16 +12,9 @@ public class PlaceObject : MonoBehaviour
 
     private ARRaycastManager aRRaycastManager;
     private ARPlaneManager aRPlaneManager;
-    private GameObject spawnedObject;  // Reference to the instantiated object
+    public GameObject spawnedObject;  // Reference to the instantiated object
     private List<ARRaycastHit> hits = new List<ARRaycastHit>();
-    public void FixModelAndChangeScene()
-    {
-        // Optional: Disable further raycasting to fix the model's position
-        this.enabled = false;
 
-        // Load the demo scene
-        SceneManager.LoadScene("DemoScene");  // 
-    }
     private void Awake()
     {
         aRRaycastManager = GetComponent<ARRaycastManager>();

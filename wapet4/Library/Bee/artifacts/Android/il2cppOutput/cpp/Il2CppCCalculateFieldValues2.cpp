@@ -1332,6 +1332,8 @@ struct PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B;
 struct PerformanceStateTracker_tDF46D2D9CE3326E210493B3F4171DD715E6DBB43;
 // UnityEngine.Events.PersistentCallGroup
 struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
+// PlaceObject
+struct PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF;
 // UnityEngine.Plane
 struct Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C;
 // Unity.Services.Authentication.Generated.Player
@@ -25165,6 +25167,13 @@ struct SkewTextExample_t23E1D8362105119C600703D984514C02617441D1  : public MonoB
 	float ___ShearAmount_7;
 };
 
+// SwitchToDemoScene
+struct SwitchToDemoScene_tC9B1B431EA581A5268758DBA5F6AC761A766ECE1  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// PlaceObject SwitchToDemoScene::placeObjectScript
+	PlaceObject_t69096E71B3AF67B110DC0077487F0BBDB8D9E1BF* ___placeObjectScript_4;
+};
+
 // TMPro.Examples.TMP_ExampleScript_01
 struct TMP_ExampleScript_01_t12A14830C25DE1BA02443B22907A196BE4B44305  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -29996,6 +30005,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7370[4] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7371[7] = 
 {
 	static_cast<int32_t>(offsetof(UILogin_t4AE68EE53FF8AF9C9CBA3721AD1379956A33A022, ___loginButton_4)),static_cast<int32_t>(offsetof(UILogin_t4AE68EE53FF8AF9C9CBA3721AD1379956A33A022, ___userIdText_5)),static_cast<int32_t>(offsetof(UILogin_t4AE68EE53FF8AF9C9CBA3721AD1379956A33A022, ___userNameText_6)),static_cast<int32_t>(offsetof(UILogin_t4AE68EE53FF8AF9C9CBA3721AD1379956A33A022, ___loginPanel_7)),static_cast<int32_t>(offsetof(UILogin_t4AE68EE53FF8AF9C9CBA3721AD1379956A33A022, ___userPanel_8)),static_cast<int32_t>(offsetof(UILogin_t4AE68EE53FF8AF9C9CBA3721AD1379956A33A022, ___loginController_9)),static_cast<int32_t>(offsetof(UILogin_t4AE68EE53FF8AF9C9CBA3721AD1379956A33A022, ___playerProfile_10)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7372[1] = 
+{
+	static_cast<int32_t>(offsetof(SwitchToDemoScene_tC9B1B431EA581A5268758DBA5F6AC761A766ECE1, ___placeObjectScript_4)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7373[3] = 
 {
 	static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatInputField_4)),static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatDisplayOutput_5)),static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatScrollbar_6)),};
