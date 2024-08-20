@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/App Desgin/Demo_Pets.unity
+- path: Assets/Scenes/App Desgin/chatbot page.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
