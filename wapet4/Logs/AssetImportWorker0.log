@@ -361,3 +361,9 @@ Received Import Request.
   path: Assets/prefab/ChatBubbleBot.prefab
   artifactKey: Guid(51cad212d0e534734bcced21b2f16af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/prefab/ChatBubbleBot.prefab using Guid(51cad212d0e534734bcced21b2f16af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250a8a4734ad18a077687feba051bb07') in 0.111621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 393.950326 seconds.
+  path: Assets/Images/chatbot2.png
+  artifactKey: Guid(e5dbabc3e22324368a64a5e838405ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/chatbot2.png using Guid(e5dbabc3e22324368a64a5e838405ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd778bec957f5f843c4948bfa92c0e354') in 0.138041 seconds 
