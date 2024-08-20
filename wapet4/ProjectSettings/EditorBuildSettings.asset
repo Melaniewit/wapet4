@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/App Desgin/BlankAR.unity
     guid: 6bdce89659816455b9f906fc62d19910
-  - enabled: 1
+  - enabled: 0
     path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/Demo/Demo_Pets_01.unity
     guid: 460f3a4b119efb04999ebc193bcc2d79
+  - enabled: 1
+    path: Assets/Scenes/App Desgin/DemoScene.unity
+    guid: 1a6b01dba10654310b40ae6cb5679bfc
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
