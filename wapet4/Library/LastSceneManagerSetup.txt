@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/App Desgin/DemoScene.unity
+- path: Assets/Scenes/App Desgin/Demo_Pets.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

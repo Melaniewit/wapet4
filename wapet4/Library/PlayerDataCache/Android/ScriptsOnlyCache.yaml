@@ -10,8 +10,6 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
-    Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.Services.Authentication.PlayerAccounts.dll:
@@ -148,8 +146,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -161,9 +157,9 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1682}
+      Script: {instanceID: 1678}
     - Class: 114
-      Script: {instanceID: 1686}
+      Script: {instanceID: 1682}
     - Class: 114
       Script: {instanceID: 1726}
     - Class: 114
@@ -236,7 +232,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
-    Assets/Scenes/App Desgin/DemoScene.unity:
+    Assets/Scenes/App Desgin/Demo_Pets.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -259,6 +255,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -272,29 +270,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1678}
+    - Class: 114
       Script: {instanceID: 1682}
-    - Class: 114
-      Script: {instanceID: 1686}
-    - Class: 114
-      Script: {instanceID: 1726}
-    - Class: 114
-      Script: {instanceID: 1892}
-    - Class: 114
-      Script: {instanceID: 3048}
     - Class: 114
       Script: {instanceID: 3420}
     - Class: 114
       Script: {instanceID: 3762}
     - Class: 114
       Script: {instanceID: 4228}
-    - Class: 114
-      Script: {instanceID: 4510}
-    - Class: 114
-      Script: {instanceID: 5130}
-    - Class: 114
-      Script: {instanceID: 5240}
-    - Class: 114
-      Script: {instanceID: 5408}
     - Class: 114
       Script: {instanceID: 5968}
     - Class: 114
@@ -304,19 +288,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8402}
     - Class: 114
-      Script: {instanceID: 8446}
-    - Class: 114
-      Script: {instanceID: 9680}
-    - Class: 114
-      Script: {instanceID: 9946}
-    - Class: 114
       Script: {instanceID: 10492}
-    - Class: 114
-      Script: {instanceID: 10894}
-    - Class: 114
-      Script: {instanceID: 11584}
-    - Class: 114
-      Script: {instanceID: 11792}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -338,6 +310,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
       Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
@@ -2085,5 +2059,5 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/App Desgin/BlankAR.unity
-  - Assets/Scenes/App Desgin/DemoScene.unity
+  - Assets/Scenes/App Desgin/Demo_Pets.unity
   playerPath: /Users/melaniewhite/unity project/wapet4/wapet4/wapet4-test.apk

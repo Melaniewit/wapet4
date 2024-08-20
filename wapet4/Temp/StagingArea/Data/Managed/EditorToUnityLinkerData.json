@@ -43,7 +43,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -53,7 +53,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -70,7 +70,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -80,7 +80,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -97,7 +97,7 @@
             "moduleName": "AI",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -191,7 +191,7 @@
             "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -222,7 +222,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -274,7 +274,7 @@
             "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -284,7 +284,25 @@
             "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioBehaviour",
+            "fullManagedTypeName": "UnityEngine.AudioBehaviour",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioListener",
+            "fullManagedTypeName": "UnityEngine.AudioListener",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -294,7 +312,7 @@
             "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -304,7 +322,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -314,7 +332,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -324,7 +342,7 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -334,7 +352,7 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -344,7 +362,7 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -354,7 +372,7 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -364,7 +382,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -373,8 +391,7 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -398,7 +415,7 @@
             "moduleName": "TextRendering",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -408,7 +425,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -439,7 +456,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -449,7 +466,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -459,7 +476,16 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "LightProbes",
+            "fullManagedTypeName": "UnityEngine.LightProbes",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -469,7 +495,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -479,7 +505,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -489,7 +515,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -499,7 +525,7 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -509,7 +535,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -519,7 +545,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -529,7 +555,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -539,7 +565,7 @@
             "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -549,7 +575,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -566,7 +592,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -576,7 +602,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -593,7 +619,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -603,7 +629,7 @@
             "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -613,7 +639,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -623,7 +649,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -640,7 +666,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -650,7 +676,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -660,7 +686,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -670,7 +696,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {
@@ -680,7 +706,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/App Desgin/BlankAR.unity",
-                "Assets/Scenes/App Desgin/DemoScene.unity"
+                "Assets/Scenes/App Desgin/Demo_Pets.unity"
             ]
         },
         {

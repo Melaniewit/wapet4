@@ -20,7 +20,7 @@ public class SwitchToDemoScene : MonoBehaviour
         // }
 
         // Load the demo scene asynchronously
-        SceneManager.LoadSceneAsync("DemoScene");
+        SceneManager.LoadSceneAsync("Demo_Pets");
 
     }
 }
