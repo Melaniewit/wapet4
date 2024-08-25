@@ -1,7 +1,8 @@
 using UnityEngine;
-using TMPro;  // Namespace for TextMeshPro
-using UnityEngine.UI;  // Namespace for standard UI Text
+using TMPro;
+using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class GlobalFontSizeManager : MonoBehaviour
 {
@@ -19,7 +20,8 @@ public class GlobalFontSizeManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);  // Ensures this object is not destroyed when loading a new scene.
+            DontDestroyOnLoad(gameObject);
+            SceneManager.sceneLoaded += OnSceneLoaded;  // 注册场景加载事件
         }
         else
         {
@@ -31,6 +33,11 @@ public class GlobalFontSizeManager : MonoBehaviour
     {
         InitializeFontSizes();
         SetUpToggles();
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        InitializeFontSizes();  // 重新初始化字体大小以应对新场景
     }
 
     private void InitializeFontSizes()
@@ -50,6 +57,7 @@ public class GlobalFontSizeManager : MonoBehaviour
         }
 
         initialized = true;
+        UpdateFontSize(PlayerPrefs.GetInt("FontSizeIncrease", 0) == 1);  // 应用当前字体大小设置
     }
 
     private void SetUpToggles()
@@ -57,42 +65,27 @@ public class GlobalFontSizeManager : MonoBehaviour
         normalToggle.onValueChanged.AddListener(delegate { UpdateFontSize(false); });
         bigToggle.onValueChanged.AddListener(delegate { UpdateFontSize(true); });
 
-        // Set initial toggle state based on saved preference
         bool increaseSize = PlayerPrefs.GetInt("FontSizeIncrease", 0) == 1;
-        if (increaseSize)
-        {
-            bigToggle.isOn = true;
-        }
-        else
-        {
-            normalToggle.isOn = true;
-        }
+        bigToggle.isOn = increaseSize;
+        normalToggle.isOn = !increaseSize;
     }
 
     public void UpdateFontSize(bool increaseSize)
     {
-        // Ensure original sizes are captured
-        if (!initialized)
-            InitializeFontSizes();
+        if (!initialized) return;  // 确保初始化完成
 
-        // Update TextMeshPro texts
-        TMP_Text[] tmpTexts = FindObjectsOfType<TMP_Text>();
-        foreach (var text in tmpTexts)
+        foreach (var entry in originalFontSizes)
         {
-            if (originalFontSizes.TryGetValue(text, out float originalSize))
-                text.fontSize = increaseSize ? originalSize + bigSizeIncrement : originalSize;
+            if (entry.Key is TMP_Text tmpText)
+            {
+                tmpText.fontSize = increaseSize ? entry.Value + bigSizeIncrement : entry.Value;
+            }
+            else if (entry.Key is Text uiText)
+            {
+                uiText.fontSize = (int)(increaseSize ? entry.Value + bigSizeIncrement : entry.Value);
+            }
         }
 
-        // Update standard UI Texts
-        Text[] uiTexts = FindObjectsOfType<Text>();
-        foreach (var text in uiTexts)
-        {
-            if (originalFontSizes.TryGetValue(text, out float originalSize))
-                text.fontSize = (int)(increaseSize ? originalSize + bigSizeIncrement : originalSize);
-
-        }
-
-        // Optionally save the font size preference
-        PlayerPrefs.SetInt("FontSizeIncrease", increaseSize ? 1 : 0); // Save the preference as an increase state rather than a size
+        PlayerPrefs.SetInt("FontSizeIncrease", increaseSize ? 1 : 0);  // 保存字体大小设置
     }
 }
