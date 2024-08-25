@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/App Desgin/ChatbotScene.unity
+- path: Assets/Scenes/App Desgin/Setting page.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
