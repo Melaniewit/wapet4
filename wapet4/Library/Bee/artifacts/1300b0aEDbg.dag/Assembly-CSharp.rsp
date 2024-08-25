@@ -393,7 +393,6 @@
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/WatsonUnitySDK.ref.dll"
 "Assets/ExampleAssets/Scripts/AnchorCreator.cs"
 "Assets/ExampleAssets/Scripts/ARFeatheredPlaneMeshVisualizer.cs"
-"Assets/FontSizeManager.cs"
 "Assets/GlobalFontSizeManager.cs"
 "Assets/LoadDemoScene.cs"
 "Assets/LoadSettingsScene.cs"
