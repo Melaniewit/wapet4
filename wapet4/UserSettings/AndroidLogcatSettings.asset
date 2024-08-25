@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "9889db454b52494254",
         "name": "com.DefaultCompany.wapet4",
-        "processId": 14591,
+        "processId": 9966,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -66,6 +66,24 @@
             "deviceId": "9889db454b52494254",
             "name": "com.DefaultCompany.wapet4",
             "processId": 14591,
+            "exited": false
+        },
+        {
+            "deviceId": "9889db454b52494254",
+            "name": "com.DefaultCompany.wapet4",
+            "processId": 12845,
+            "exited": false
+        },
+        {
+            "deviceId": "9889db454b52494254",
+            "name": "com.DefaultCompany.wapet4",
+            "processId": 23112,
+            "exited": false
+        },
+        {
+            "deviceId": "9889db454b52494254",
+            "name": "com.DefaultCompany.wapet4",
+            "processId": 9966,
             "exited": false
         }
     ],

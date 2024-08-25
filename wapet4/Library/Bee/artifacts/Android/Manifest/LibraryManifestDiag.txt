@@ -5,22 +5,39 @@ android.permission.INTERNET was added because:
 		Unity.XR.OpenXR.Features.RuntimeDebugger-FeaturesChecked.txt
 		Unity.Services.Authentication.PlayerAccounts-FeaturesChecked.txt
 		Unity.InputSystem-FeaturesChecked.txt
+		WatsonUnitySDK-FeaturesChecked.txt
 		Unity.XR.ARCore-FeaturesChecked.txt
 		Unity.Services.Core.Internal-FeaturesChecked.txt
+		IBM.Cloud.SDK-FeaturesChecked.txt
 		Unity.Services.Authentication-FeaturesChecked.txt
+		Unity.Services.Core.Networking-FeaturesChecked.txt
+	System.Net.Sockets was present in:
+		websocket-sharp-FeaturesChecked.txt
+		Novell.Directory.Ldap-FeaturesChecked.txt
 	UnityEngine.Network was present in:
 		Unity.XR.OpenXR.Features.RuntimeDebugger-FeaturesChecked.txt
 		Unity.Services.Authentication.PlayerAccounts-FeaturesChecked.txt
 		Unity.InputSystem-FeaturesChecked.txt
+		WatsonUnitySDK-FeaturesChecked.txt
 		Unity.XR.ARCore-FeaturesChecked.txt
 		Unity.Services.Core.Internal-FeaturesChecked.txt
+		IBM.Cloud.SDK-FeaturesChecked.txt
 		Unity.Services.Authentication-FeaturesChecked.txt
+		Unity.Services.Core.Networking-FeaturesChecked.txt
+	UnityEngine.WWW was present in:
+		IBM.Cloud.SDK-FeaturesChecked.txt
 	UnityEngine.Networking.UnityWebRequest was present in:
 		Unity.Services.Authentication.PlayerAccounts-FeaturesChecked.txt
+		WatsonUnitySDK-FeaturesChecked.txt
 		Unity.XR.ARCore-FeaturesChecked.txt
 		Unity.Services.Core.Internal-FeaturesChecked.txt
+		IBM.Cloud.SDK-FeaturesChecked.txt
 		Unity.Services.Authentication-FeaturesChecked.txt
+		Unity.Services.Core.Networking-FeaturesChecked.txt
 	Development player
+android.permission.RECORD_AUDIO, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.BLUETOOTH, android.hardware.microphone were added because:
+	UnityEngine.Microphone was present in:
+		WatsonUnitySDK-FeaturesChecked.txt
 android.hardware.touchscreen.multitouch, android.hardware.touchscreen.multitouch.distinct were enabled because:
 	UnityEngine.Input::GetTouch was present in:
 		Assembly-CSharp-FeaturesChecked.txt
