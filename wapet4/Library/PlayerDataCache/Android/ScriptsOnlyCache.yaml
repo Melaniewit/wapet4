@@ -2,15 +2,20 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ARFeatheredPlaneMeshVisualizer
+    - BackToMenuButton
     - BackToOption1ChooseButton
     - ButtonLoadOption1Choose
     - ButtonLoadOption2Upload
     - ChatManager
     - Demo
+    - GlobalFontSizeManager
+    - GoToARPage
+    - LoadDemoScene
+    - LoadSettingsScene
     - LoginController
     - LogoutController
     - PlaceObject
-    - SceneSwitcher
+    - SettingPageController
     - SwitchToDemoScene
     - UILogin
     Unity.InputSystem.dll:
@@ -20,8 +25,6 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
-    Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.Services.Authentication.PlayerAccounts.dll:
@@ -93,6 +96,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.ToggleGroup
     - UnityEngine.UI.VerticalLayoutGroup
     UnityEngine.XR.MagicLeap.dll:
     - UnityEngine.XR.MagicLeap.MagicLeapSettings
@@ -145,9 +150,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ScrollRect/ScrollRectEvent
     - UnityEngine.UI.Scrollbar/ScrollEvent
     - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
     UnityEngine.XR.MagicLeap:
     - UnityEngine.XR.MagicLeap.MagicLeapSettings/GLCache
   methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: LoadSettingsScene
+    methodName: LoadSettings
   - assembly: Assembly-CSharp
     fullTypeName: ButtonLoadOption1Choose
     methodName: LoadOption1Scene
@@ -162,6 +171,24 @@ ScriptsOnlyBuild:
     methodName: LoadDemoScene
   - assembly: Assembly-CSharp
     fullTypeName: BackToOption1ChooseButton
+    methodName: OnBackToMenuButtonClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: LoadDemoScene
+    methodName: LoadDemo
+  - assembly: Assembly-CSharp
+    fullTypeName: LoadDemoScene
+    methodName: LoadDemo
+  - assembly: Assembly-CSharp
+    fullTypeName: BackToMenuButton
+    methodName: OnBackToMenuButtonClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: LogoutController
+    methodName: SignOutAndReturnToLogin
+  - assembly: Assembly-CSharp
+    fullTypeName: GoToARPage
+    methodName: OnBackToMenuButtonClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: BackToMenuButton
     methodName: OnBackToMenuButtonClicked
   sceneClasses:
     Assets/Scenes/App Desgin/BlankAR.unity:
@@ -204,45 +231,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1694}
     - Class: 114
-      Script: {instanceID: 1718}
+      Script: {instanceID: 1696}
     - Class: 114
-      Script: {instanceID: 1830}
+      Script: {instanceID: 1720}
     - Class: 114
-      Script: {instanceID: 3178}
+      Script: {instanceID: 1832}
     - Class: 114
-      Script: {instanceID: 3300}
+      Script: {instanceID: 3302}
     - Class: 114
-      Script: {instanceID: 3688}
+      Script: {instanceID: 3690}
     - Class: 114
-      Script: {instanceID: 5618}
+      Script: {instanceID: 5620}
     - Class: 114
-      Script: {instanceID: 6192}
+      Script: {instanceID: 6194}
     - Class: 114
-      Script: {instanceID: 6860}
+      Script: {instanceID: 6862}
     - Class: 114
-      Script: {instanceID: 7268}
+      Script: {instanceID: 7270}
     - Class: 114
-      Script: {instanceID: 8338}
+      Script: {instanceID: 8340}
     - Class: 114
-      Script: {instanceID: 8524}
+      Script: {instanceID: 8526}
     - Class: 114
-      Script: {instanceID: 8710}
+      Script: {instanceID: 8712}
     - Class: 114
-      Script: {instanceID: 9512}
+      Script: {instanceID: 9514}
     - Class: 114
-      Script: {instanceID: 9664}
+      Script: {instanceID: 9666}
     - Class: 114
-      Script: {instanceID: 10770}
+      Script: {instanceID: 10774}
     - Class: 114
-      Script: {instanceID: 10790}
+      Script: {instanceID: 10794}
     - Class: 114
-      Script: {instanceID: 11272}
+      Script: {instanceID: 11276}
     - Class: 114
-      Script: {instanceID: 11300}
+      Script: {instanceID: 11304}
     - Class: 114
-      Script: {instanceID: 12170}
+      Script: {instanceID: 12174}
     - Class: 114
-      Script: {instanceID: 13190}
+      Script: {instanceID: 13194}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -293,33 +320,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1694}
     - Class: 114
-      Script: {instanceID: 3178}
+      Script: {instanceID: 1696}
     - Class: 114
-      Script: {instanceID: 5618}
+      Script: {instanceID: 2130}
     - Class: 114
-      Script: {instanceID: 6314}
+      Script: {instanceID: 5620}
     - Class: 114
-      Script: {instanceID: 7234}
+      Script: {instanceID: 6316}
     - Class: 114
-      Script: {instanceID: 8524}
+      Script: {instanceID: 7236}
     - Class: 114
-      Script: {instanceID: 8710}
+      Script: {instanceID: 8526}
     - Class: 114
-      Script: {instanceID: 9164}
+      Script: {instanceID: 8712}
     - Class: 114
-      Script: {instanceID: 9726}
+      Script: {instanceID: 9166}
     - Class: 114
-      Script: {instanceID: 9922}
+      Script: {instanceID: 9728}
     - Class: 114
-      Script: {instanceID: 10578}
+      Script: {instanceID: 9926}
     - Class: 114
-      Script: {instanceID: 10770}
+      Script: {instanceID: 10582}
     - Class: 114
-      Script: {instanceID: 11272}
+      Script: {instanceID: 10774}
     - Class: 114
-      Script: {instanceID: 11750}
+      Script: {instanceID: 11276}
     - Class: 114
-      Script: {instanceID: 12756}
+      Script: {instanceID: 11754}
+    - Class: 114
+      Script: {instanceID: 12760}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -378,21 +407,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1694}
     - Class: 114
-      Script: {instanceID: 3178}
+      Script: {instanceID: 1696}
     - Class: 114
-      Script: {instanceID: 4100}
+      Script: {instanceID: 4102}
     - Class: 114
-      Script: {instanceID: 5036}
+      Script: {instanceID: 5038}
     - Class: 114
-      Script: {instanceID: 6630}
+      Script: {instanceID: 6632}
     - Class: 114
-      Script: {instanceID: 8524}
+      Script: {instanceID: 8526}
     - Class: 114
-      Script: {instanceID: 8710}
+      Script: {instanceID: 8712}
     - Class: 114
-      Script: {instanceID: 11012}
+      Script: {instanceID: 11016}
     - Class: 114
-      Script: {instanceID: 11272}
+      Script: {instanceID: 11276}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -447,43 +476,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1688}
     - Class: 114
-      Script: {instanceID: 3178}
+      Script: {instanceID: 1694}
     - Class: 114
-      Script: {instanceID: 4038}
+      Script: {instanceID: 4040}
     - Class: 114
-      Script: {instanceID: 5122}
+      Script: {instanceID: 5124}
     - Class: 114
-      Script: {instanceID: 5618}
+      Script: {instanceID: 5620}
     - Class: 114
-      Script: {instanceID: 6274}
+      Script: {instanceID: 6276}
     - Class: 114
-      Script: {instanceID: 6452}
+      Script: {instanceID: 6454}
     - Class: 114
-      Script: {instanceID: 8126}
+      Script: {instanceID: 8128}
     - Class: 114
-      Script: {instanceID: 8218}
+      Script: {instanceID: 8220}
     - Class: 114
-      Script: {instanceID: 8524}
+      Script: {instanceID: 8526}
     - Class: 114
-      Script: {instanceID: 8710}
+      Script: {instanceID: 8712}
     - Class: 114
-      Script: {instanceID: 8792}
+      Script: {instanceID: 8794}
     - Class: 114
-      Script: {instanceID: 9192}
+      Script: {instanceID: 9194}
     - Class: 114
-      Script: {instanceID: 9588}
+      Script: {instanceID: 9590}
     - Class: 114
-      Script: {instanceID: 10130}
+      Script: {instanceID: 10134}
     - Class: 114
-      Script: {instanceID: 10582}
+      Script: {instanceID: 10586}
     - Class: 114
-      Script: {instanceID: 10770}
+      Script: {instanceID: 10774}
     - Class: 114
-      Script: {instanceID: 11272}
+      Script: {instanceID: 11276}
     - Class: 114
-      Script: {instanceID: 12738}
+      Script: {instanceID: 12742}
     - Class: 114
-      Script: {instanceID: 28544}
+      Script: {instanceID: 29102}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -526,24 +555,152 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1694}
     - Class: 114
-      Script: {instanceID: 3178}
+      Script: {instanceID: 1696}
     - Class: 114
-      Script: {instanceID: 3390}
+      Script: {instanceID: 3392}
     - Class: 114
-      Script: {instanceID: 5618}
+      Script: {instanceID: 5620}
     - Class: 114
-      Script: {instanceID: 8524}
+      Script: {instanceID: 8526}
     - Class: 114
-      Script: {instanceID: 8710}
+      Script: {instanceID: 8712}
     - Class: 114
-      Script: {instanceID: 8792}
+      Script: {instanceID: 8794}
     - Class: 114
-      Script: {instanceID: 10770}
+      Script: {instanceID: 10774}
     - Class: 114
-      Script: {instanceID: 11272}
+      Script: {instanceID: 11276}
     - Class: 114
-      Script: {instanceID: 28544}
+      Script: {instanceID: 29102}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/App Desgin/Option1-choose your pet.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1688}
+    - Class: 114
+      Script: {instanceID: 1694}
+    - Class: 114
+      Script: {instanceID: 1696}
+    - Class: 114
+      Script: {instanceID: 3672}
+    - Class: 114
+      Script: {instanceID: 5620}
+    - Class: 114
+      Script: {instanceID: 8526}
+    - Class: 114
+      Script: {instanceID: 8712}
+    - Class: 114
+      Script: {instanceID: 10768}
+    - Class: 114
+      Script: {instanceID: 10774}
+    - Class: 114
+      Script: {instanceID: 11276}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/App Desgin/Setting page.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1688}
+    - Class: 114
+      Script: {instanceID: 1692}
+    - Class: 114
+      Script: {instanceID: 1694}
+    - Class: 114
+      Script: {instanceID: 1696}
+    - Class: 114
+      Script: {instanceID: 2130}
+    - Class: 114
+      Script: {instanceID: 3672}
+    - Class: 114
+      Script: {instanceID: 5620}
+    - Class: 114
+      Script: {instanceID: 8220}
+    - Class: 114
+      Script: {instanceID: 8526}
+    - Class: 114
+      Script: {instanceID: 8712}
+    - Class: 114
+      Script: {instanceID: 8964}
+    - Class: 114
+      Script: {instanceID: 9776}
+    - Class: 114
+      Script: {instanceID: 10774}
+    - Class: 114
+      Script: {instanceID: 11016}
+    - Class: 114
+      Script: {instanceID: 11276}
+    - Class: 114
+      Script: {instanceID: 12846}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -576,6 +733,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: e09e8bebc0fcd32bb8af1287a6b44816
@@ -648,6 +811,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Notifications.Android.dll
     namespaceName: Unity.Notifications.Android
     className: AndroidReceivedNotificationMainThreadDispatcher
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadDemoScene
   - hash:
       serializedVersion: 2
       Hash: 1be5ee23282525b841976a22826bcd2b
@@ -780,12 +949,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.AdaptivePerformance.dll
     namespaceName: UnityEngine.AdaptivePerformance
     className: AdaptiveFramerate
-  - hash:
-      serializedVersion: 2
-      Hash: 69415240821be7986b27e72bf9609a30
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1085,7 +1248,7 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: SceneSwitcher
+    className: LoadSettingsScene
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1538,7 +1701,7 @@ ScriptsOnlyBuild:
     className: WatsonMenu
   - hash:
       serializedVersion: 2
-      Hash: 2a89d999f422b1c1304657784f003472
+      Hash: ce0ee9b80a4eeb464b623a0b942be21a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LogoutController
@@ -1788,6 +1951,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: f8c1fe4a9b440ba8d9d75571e47f6595
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GlobalFontSizeManager
   - hash:
       serializedVersion: 2
       Hash: 1b1db168450ba28584789c506c194e9c
@@ -2419,4 +2588,6 @@ ScriptsOnlyBuild:
   - Assets/Scenes/App Desgin/BlankAR.unity
   - Assets/Scenes/App Desgin/Demo_Pets.unity
   - Assets/Scenes/App Desgin/ChatbotScene.unity
+  - Assets/Scenes/App Desgin/Setting page.unity
+  - Assets/Scenes/App Desgin/Option1-choose your pet.unity
   playerPath: /Users/melaniewhite/unity project/wapet4/wapet4/wapet4-test.apk
