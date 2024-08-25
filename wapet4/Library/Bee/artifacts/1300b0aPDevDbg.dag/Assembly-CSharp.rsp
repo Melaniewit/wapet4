@@ -324,6 +324,7 @@
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/WatsonUnitySDK.ref.dll"
 "Assets/ExampleAssets/Scripts/AnchorCreator.cs"
 "Assets/ExampleAssets/Scripts/ARFeatheredPlaneMeshVisualizer.cs"
+"Assets/LogoutController.cs"
 "Assets/PlaceOnPlane.cs"
 "Assets/Quirky Series Ultimate/_Scripts/Demo.cs"
 "Assets/Samples/Authentication/2.0.0/UI Example/AnonymousSignInUIExample.cs"

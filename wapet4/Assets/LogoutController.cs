@@ -1,20 +1,19 @@
 using UnityEngine;
 using UnityEngine.UI;
 using Unity.Services.Authentication;
+using UnityEngine.SceneManagement;
 
 public class LogoutController : MonoBehaviour
 {
     [SerializeField] private Button signOutButton;
-    [SerializeField] private GameObject logOutPanel;  // LogOutPanel 引用
-    [SerializeField] private GameObject loginPanel;   // LoginPanel 引用
 
     private void Start()
     {
         // 绑定按钮点击事件
-        signOutButton.onClick.AddListener(SignOutAndSwitchPanels);
+        signOutButton.onClick.AddListener(SignOutAndReturnToLogin);
     }
 
-    private void SignOutAndSwitchPanels()
+    public void SignOutAndReturnToLogin()
     {
         Debug.Log("SignOut button clicked.");  // 确认按钮点击
 
@@ -27,9 +26,8 @@ public class LogoutController : MonoBehaviour
             AuthenticationService.Instance.SignOut();
             Debug.Log("Player has been signed out.");
 
-            // 切换面板显示
-            logOutPanel.SetActive(false);  // 隐藏 LogOutPanel
-            loginPanel.SetActive(true);    // 显示 LoginPanel
+            // 跳转回登录页面
+            SceneManager.LoadScene("Login page");
         }
         else
         {
@@ -40,6 +38,6 @@ public class LogoutController : MonoBehaviour
     private void OnDestroy()
     {
         // 清理事件绑定
-        signOutButton.onClick.RemoveListener(SignOutAndSwitchPanels);
+        signOutButton.onClick.RemoveListener(SignOutAndReturnToLogin);
     }
 }

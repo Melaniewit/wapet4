@@ -1,13 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneSwitcher : MonoBehaviour
+public class LoadSettingsScene : MonoBehaviour
 {
     // Method to load the settings scene
-    public void LoadSettingsScene()
+    public void LoadSettings()
     {
         SceneManager.LoadScene("Setting page");
     }
-
-
 }
