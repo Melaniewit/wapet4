@@ -4,16 +4,16 @@ using Unity.Services.Authentication;
 using Unity.Services.Authentication.PlayerAccounts;
 using Unity.Services.Core;
 using UnityEngine;
+using Unity.Services.Authentication;
+
 
 public class LoginController : MonoBehaviour
 {
-    public event Action<PlayerProfile> OnSignedIn;
-    public event Action<PlayerProfile> OnAvatarUpdate;
+    public event Action<PlayerInfo> OnSignedIn;
+    public event Action<PlayerInfo> OnAvatarUpdate;
 
     private PlayerInfo playerInfo;
-
-    private PlayerProfile playerProfile;
-    public PlayerProfile PlayerProfile => playerProfile;
+    public PlayerInfo PlayerInfo => playerInfo;
 
     private async void Awake()
     {
@@ -49,12 +49,7 @@ public class LoginController : MonoBehaviour
 
             playerInfo = AuthenticationService.Instance.PlayerInfo;
 
-            var name = await AuthenticationService.Instance.GetPlayerNameAsync();
-
-            playerProfile.playerInfo = playerInfo;
-            playerProfile.Name = name;
-
-            OnSignedIn?.Invoke(playerProfile);
+            OnSignedIn?.Invoke(playerInfo);
         }
         catch (AuthenticationException ex)
         {
@@ -70,12 +65,4 @@ public class LoginController : MonoBehaviour
     {
         PlayerAccountService.Instance.SignedIn -= SignedIn;
     }
-}
-
-
-[Serializable]
-public struct PlayerProfile
-{
-    public PlayerInfo playerInfo;
-    public string Name;
 }

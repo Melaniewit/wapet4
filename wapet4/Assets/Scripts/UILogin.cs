@@ -2,19 +2,19 @@ using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Unity.Services.Authentication;
+
 
 public class UILogin : MonoBehaviour
 {
     [SerializeField] private Button loginButton;
 
     [SerializeField] private TMP_Text userIdText;
-    [SerializeField] private TMP_Text userNameText;
-
     [SerializeField] private Transform loginPanel, userPanel;
 
     [SerializeField] private LoginController loginController;
 
-    private PlayerProfile playerProfile;
+    private PlayerInfo playerInfo;
 
     private void OnEnable()
     {
@@ -35,18 +35,17 @@ public class UILogin : MonoBehaviour
         await loginController.InitSignIn();
     }
 
-    private void LoginController_OnSignedIn(PlayerProfile profile)
+    private void LoginController_OnSignedIn(PlayerInfo info)
     {
-        playerProfile = profile;
+        playerInfo = info;
         loginPanel.gameObject.SetActive(false);
         userPanel.gameObject.SetActive(true);
 
-        userIdText.text = $"id_{playerProfile.playerInfo.Id}";
-        userNameText.text = profile.Name;
-    }
-    private void LoginController_OnAvatarUpdate(PlayerProfile profile)
-    {
-        playerProfile = profile;
+        userIdText.text = $"id_{playerInfo.Id}";
     }
 
+    private void LoginController_OnAvatarUpdate(PlayerInfo info)
+    {
+        playerInfo = info;
+    }
 }
