@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/App Desgin/ChatbotScene.unity
     guid: dd01edee74e6c40fab97a5d17e2cfeac
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/App Desgin/Setting page.unity
     guid: d65875af186c045a6960d9a2e04887d2
   - enabled: 0
