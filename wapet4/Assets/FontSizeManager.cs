@@ -9,51 +9,65 @@ public class FontSizeManager : MonoBehaviour
     public Toggle normalToggle;
     public Toggle bigToggle;
 
-    private int normalSize = 40; // Define normal size
-    private int bigSizeIncrement = 10; // Define increment for big size
+    private Dictionary<TMP_Text, float> originalFontSizes = new Dictionary<TMP_Text, float>();
+    private float bigSizeIncrement = 10f; // Define increment for big size
 
     void Start()
     {
-        normalToggle.onValueChanged.AddListener(delegate { OnToggleChanged(normalToggle, normalSize); });
-        bigToggle.onValueChanged.AddListener(delegate { OnToggleChanged(bigToggle, normalSize + bigSizeIncrement); });
+        // Store the original font sizes and set up listeners
+        foreach (TMP_Text text in textsToChange)
+        {
+            originalFontSizes[text] = text.fontSize; // Capture the current font size as the "normal" size
+        }
 
-        // Force an initial toggle state based on saved preference
-        int savedSize = PlayerPrefs.GetInt("FontSize", normalSize);
-        if (savedSize == normalSize + bigSizeIncrement)
+        normalToggle.onValueChanged.AddListener(delegate { ApplyNormalSize(); });
+        bigToggle.onValueChanged.AddListener(delegate { ApplyBigSize(); });
+
+        // Set initial state based on saved preference
+        ApplyInitialFontSize();
+    }
+
+    private void ApplyNormalSize()
+    {
+        if (normalToggle.isOn)
+        {
+            foreach (var text in textsToChange)
+            {
+                text.fontSize = originalFontSizes[text]; // Restore original size
+            }
+            SaveFontSizePreference(originalFontSizes[textsToChange[0]]);
+        }
+    }
+
+    private void ApplyBigSize()
+    {
+        if (bigToggle.isOn)
+        {
+            foreach (var text in textsToChange)
+            {
+                text.fontSize = originalFontSizes[text] + bigSizeIncrement; // Increase by the defined increment
+            }
+            SaveFontSizePreference(originalFontSizes[textsToChange[0]] + bigSizeIncrement);
+        }
+    }
+
+    private void ApplyInitialFontSize()
+    {
+        float savedSize = PlayerPrefs.GetFloat("FontSize", originalFontSizes[textsToChange[0]]);
+        if (Mathf.Approximately(savedSize, originalFontSizes[textsToChange[0]] + bigSizeIncrement))
         {
             bigToggle.isOn = true;
-            AdjustFontSize(normalSize + bigSizeIncrement);
+            ApplyBigSize();
         }
         else
         {
             normalToggle.isOn = true;
-            AdjustFontSize(normalSize);
+            ApplyNormalSize();
         }
     }
 
-    private void OnToggleChanged(Toggle changedToggle, int size)
+    private void SaveFontSizePreference(float size)
     {
-        if (changedToggle.isOn)
-        {
-            AdjustFontSize(size);
-        }
-    }
-
-    void AdjustFontSize(int size)
-    {
-        if (GlobalFontSizeManager.Instance != null)
-        {
-            // Update global font size across all scenes
-            GlobalFontSizeManager.Instance.UpdateFontSize(size);
-        }
-        else
-        {
-            // Fallback to adjust only locally scoped text elements
-            foreach (TMP_Text text in textsToChange)
-            {
-                text.fontSize = size;
-            }
-        }
-        PlayerPrefs.SetInt("FontSize", size); // Save the preference
+        PlayerPrefs.SetFloat("FontSize", size); // Save the preference as a float
     }
 }
