@@ -40,7 +40,7 @@ public class UILogin : MonoBehaviour
         playerProfile = profile;
         loginPanel.gameObject.SetActive(false);
         userPanel.gameObject.SetActive(true);
-       
+
         userIdText.text = $"id_{playerProfile.playerInfo.Id}";
         userNameText.text = profile.Name;
     }
@@ -49,5 +49,4 @@ public class UILogin : MonoBehaviour
         playerProfile = profile;
     }
 
-   
 }
