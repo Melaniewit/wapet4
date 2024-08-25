@@ -1,35 +1,59 @@
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;  // 引入TextMeshPro命名空间
+using TMPro; // Include the TMP namespace
 using System.Collections.Generic;
 
 public class FontSizeManager : MonoBehaviour
 {
-    public List<TextMeshProUGUI> textsToChange;  // 使用TextMeshProUGUI替代Text
+    public List<TMP_Text> textsToChange; // Use TMP_Text instead of Text
     public Toggle normalToggle;
     public Toggle bigToggle;
 
-    private int normalSize = 40; // 定义正常大小
-    private int bigSizeIncrement = 10; // 大字模式增加的大小
+    private int normalSize = 40; // Define normal size
+    private int bigSizeIncrement = 10; // Define increment for big size
 
     void Start()
     {
-        normalToggle.onValueChanged.AddListener(delegate { AdjustFontSize(normalSize); });
-        bigToggle.onValueChanged.AddListener(delegate { AdjustFontSize(normalSize + bigSizeIncrement); });
+        normalToggle.onValueChanged.AddListener(delegate { OnToggleChanged(normalToggle, normalSize); });
+        bigToggle.onValueChanged.AddListener(delegate { OnToggleChanged(bigToggle, normalSize + bigSizeIncrement); });
 
-        // 初始化时根据保存的偏好设置字体大小
-        int currentSize = PlayerPrefs.GetInt("FontSize", normalSize);
-        AdjustFontSize(currentSize);
-        normalToggle.isOn = (currentSize == normalSize);
-        bigToggle.isOn = (currentSize == normalSize + bigSizeIncrement);
+        // Force an initial toggle state based on saved preference
+        int savedSize = PlayerPrefs.GetInt("FontSize", normalSize);
+        if (savedSize == normalSize + bigSizeIncrement)
+        {
+            bigToggle.isOn = true;
+            AdjustFontSize(normalSize + bigSizeIncrement);
+        }
+        else
+        {
+            normalToggle.isOn = true;
+            AdjustFontSize(normalSize);
+        }
+    }
+
+    private void OnToggleChanged(Toggle changedToggle, int size)
+    {
+        if (changedToggle.isOn)
+        {
+            AdjustFontSize(size);
+        }
     }
 
     void AdjustFontSize(int size)
     {
-        foreach (TextMeshProUGUI text in textsToChange)
+        if (GlobalFontSizeManager.Instance != null)
         {
-            text.fontSize = size;
+            // Update global font size across all scenes
+            GlobalFontSizeManager.Instance.UpdateFontSize(size);
         }
-        PlayerPrefs.SetInt("FontSize", size); // 保存用户偏好
+        else
+        {
+            // Fallback to adjust only locally scoped text elements
+            foreach (TMP_Text text in textsToChange)
+            {
+                text.fontSize = size;
+            }
+        }
+        PlayerPrefs.SetInt("FontSize", size); // Save the preference
     }
 }

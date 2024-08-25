@@ -7,6 +7,6 @@ public class BackToMenuButton : MonoBehaviour
     public void OnBackToMenuButtonClicked()
     {
         // Load the scene named "Menu"
-        SceneManager.LoadScene("Menu page");
+        SceneManager.LoadScene("Login page");
     }
 }
