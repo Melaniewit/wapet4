@@ -368,8 +368,6 @@
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Notifications.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.PlasticSCM.Editor.ref.dll"
--r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Postprocessing.Editor.ref.dll"
--r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Profiling.Core.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Services.Authentication.Editor.Shared.ref.dll"
