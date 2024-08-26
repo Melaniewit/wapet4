@@ -759,8 +759,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 139, y: -66.000015}
-  m_SizeDelta: {x: 80.1284, y: -3}
+  m_AnchoredPosition: {x: 176.12065, y: -76.49926}
+  m_SizeDelta: {x: 154.3698, y: 17.9985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &752678675
 MonoBehaviour:
@@ -1131,8 +1131,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 76, y: 0.99998474}
-  m_SizeDelta: {x: -28, y: -3}
+  m_AnchoredPosition: {x: 132.05434, y: 0.99998474}
+  m_SizeDelta: {x: 84.1086, y: -3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &937948345
 MonoBehaviour:
@@ -1167,7 +1167,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Big mode
+  m_Text: 'Big '
 --- !u!222 &937948346
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1478,8 +1478,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 146, y: -66.000015}
-  m_SizeDelta: {x: 79.9577, y: -3}
+  m_AnchoredPosition: {x: 170.07565, y: -66.000015}
+  m_SizeDelta: {x: 128.109, y: -3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1072029604
 MonoBehaviour:
@@ -1514,7 +1514,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Normal mode
+  m_Text: Normal
 --- !u!222 &1072029605
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2610,7 +2610,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 30.000006, y: -785}
+  m_AnchoredPosition: {x: -27, y: -790}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1751605790
@@ -2633,7 +2633,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Font
+  m_text: Font Size
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
