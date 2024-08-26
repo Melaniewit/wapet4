@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "9889db454b52494254",
         "name": "com.DefaultCompany.wapet4",
-        "processId": 19377,
+        "processId": 8496,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -48,6 +48,12 @@
             "deviceId": "9889db454b52494254",
             "name": "com.DefaultCompany.wapet4",
             "processId": 19377,
+            "exited": false
+        },
+        {
+            "deviceId": "9889db454b52494254",
+            "name": "com.DefaultCompany.wapet4",
+            "processId": 8496,
             "exited": false
         }
     ],

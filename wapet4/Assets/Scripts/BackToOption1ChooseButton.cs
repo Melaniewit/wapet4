@@ -7,6 +7,6 @@ public class BackToOption1ChooseButton : MonoBehaviour
     public void OnBackToMenuButtonClicked()
     {
         // Load the scene named "Menu"
-        SceneManager.LoadScene("Option1-choose your pet");
+        SceneManager.LoadScene("PlaneAR");
     }
 }
