@@ -53,13 +53,22 @@ public class BrightnessManager : MonoBehaviour
             if (graphic != null)
             {
                 Color originalColor = graphic.color;
-                // 调整颜色的亮度
-                float adjustedR = Mathf.Clamp01(originalColor.r * brightness);
-                float adjustedG = Mathf.Clamp01(originalColor.g * brightness);
-                float adjustedB = Mathf.Clamp01(originalColor.b * brightness);
 
-                // 应用调整后的颜色
-                graphic.color = new Color(adjustedR, adjustedG, adjustedB, originalColor.a);
+                // 重新调整亮度公式，确保亮度调整不会导致颜色完全变黑
+                Color adjustedColor;
+                
+                if (brightness >= 1.0f)
+                {
+                    // 当亮度增加时，将原始颜色逐渐接近白色
+                    adjustedColor = Color.Lerp(originalColor, Color.white, brightness - 1.0f);
+                }
+                else
+                {
+                    // 当亮度降低时，将原始颜色逐渐接近原色的50%
+                    adjustedColor = Color.Lerp(originalColor * 0.5f, originalColor, brightness);
+                }
+
+                graphic.color = adjustedColor;
             }
         }
     }
