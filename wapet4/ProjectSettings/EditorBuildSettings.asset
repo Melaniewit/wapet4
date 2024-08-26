@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/App Desgin/Menu page.unity
     guid: b72187684bbbc47f4844297e803d0148
   - enabled: 1
-    path: Assets/Scenes/App Desgin/BlankAR.unity
+    path: Assets/Scenes/App Desgin/PlaneAR.unity
     guid: 6bdce89659816455b9f906fc62d19910
   - enabled: 1
     path: Assets/Scenes/App Desgin/Demo_Pets.unity
@@ -29,7 +29,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/App Desgin/DemoScene.unity
     guid: 1a6b01dba10654310b40ae6cb5679bfc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/App Desgin/Option1-choose your pet.unity
     guid: e886a0c2bccbb47c5b66a02cfb9da55a
   m_configObjects:
