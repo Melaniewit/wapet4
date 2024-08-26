@@ -394,6 +394,7 @@
 "Assets/ExampleAssets/Scripts/AnchorCreator.cs"
 "Assets/ExampleAssets/Scripts/ARFeatheredPlaneMeshVisualizer.cs"
 "Assets/GlobalFontSizeManager.cs"
+"Assets/HighContrastManager.cs"
 "Assets/LoadDemoScene.cs"
 "Assets/LoadSettingsScene.cs"
 "Assets/LogoutController.cs"
